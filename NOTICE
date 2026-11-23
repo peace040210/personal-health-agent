@@ -1,0 +1,10 @@
+Personal Health Agent
+Copyright 2026 Personal Health Agent contributors
+
+Google Personal Health Agent synthetic sample data
+Copyright 2025 Google LLC
+Source: https://github.com/Google-Health/consumer-health-research/tree/3e9d1e4877a54cf81ce8ef34085006952dd19601/personal_health_agent/data/sample
+Licensed under the Apache License, Version 2.0. See examples/google_pha/LICENSE.txt.
+user-web/dist/data.json is a reformatted subset of the sample columns. See user-web/dist/data-NOTICE.txt.
+
+The local evidence cards and replay link to the public sources that support each excerpt or summary.
