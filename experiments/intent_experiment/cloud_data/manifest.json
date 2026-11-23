@@ -1,0 +1,41 @@
+{
+  "train": {
+    "rows": 1515,
+    "dialogues": 730,
+    "families": 147,
+    "labels": {
+      "analyze": 304,
+      "explain": 303,
+      "plan": 303,
+      "review_goal": 302,
+      "unknown": 303
+    },
+    "sha256": "ee1bc93dcf8e9255b4980ac42036663fd0f59a3b02fec5afad63885ed57fa6f2"
+  },
+  "valid": {
+    "rows": 160,
+    "dialogues": 80,
+    "families": 24,
+    "labels": {
+      "analyze": 32,
+      "explain": 32,
+      "plan": 32,
+      "review_goal": 32,
+      "unknown": 32
+    },
+    "sha256": "84d7b291cb273ec93789852e3f942324a0811ac8a803278122384d273bc60909"
+  },
+  "test": {
+    "rows": 140,
+    "dialogues": 80,
+    "families": 19,
+    "labels": {
+      "analyze": 28,
+      "explain": 28,
+      "plan": 28,
+      "review_goal": 28,
+      "unknown": 28
+    },
+    "sha256": "64b28160f883f382d9189275de8e7973a2d33afcc282aaa8b9b27528dcd52095"
+  }
+}

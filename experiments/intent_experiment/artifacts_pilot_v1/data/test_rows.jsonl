@@ -1,0 +1,60 @@
+{"text": "最近三天的睡眠时长中位数呢", "choice": "analyze", "recent": [], "family": "test-analyze-00", "source": "authored synthetic"}
+{"text": "周末的总步数摊到两天是多少", "choice": "analyze", "recent": [], "family": "test-analyze-01", "source": "authored synthetic"}
+{"text": "睡眠日志里哪一天最短", "choice": "analyze", "recent": [], "family": "test-analyze-02", "source": "authored synthetic"}
+{"text": "已上传的步数按周汇总给我", "choice": "analyze", "recent": [], "family": "test-analyze-03", "source": "authored synthetic"}
+{"text": "最近的睡眠记录缺了几晚", "choice": "analyze", "recent": [], "family": "test-analyze-04", "source": "authored synthetic"}
+{"text": "我这个星期走的总量报给我", "choice": "analyze", "recent": [], "family": "test-analyze-05", "source": "authored synthetic"}
+{"text": "比一下两个周末的走路量", "choice": "analyze", "recent": [], "family": "test-analyze-06", "source": "authored synthetic"}
+{"text": "前天那晚合计休息几小时", "choice": "analyze", "recent": [], "family": "test-analyze-07", "source": "authored synthetic"}
+{"text": "把近六日睡眠数字列一下", "choice": "analyze", "recent": [], "family": "test-analyze-08", "source": "authored synthetic"}
+{"text": "给我睡眠时长的最小最大值", "choice": "analyze", "recent": [], "family": "test-analyze-09", "source": "authored synthetic"}
+{"text": "步数走平应该怎么理解", "choice": "explain", "recent": [], "family": "test-explain-00", "source": "authored synthetic"}
+{"text": "哪种缺测会让睡眠均值偏高", "choice": "explain", "recent": [], "family": "test-explain-01", "source": "authored synthetic"}
+{"text": "这里的睡眠窗口具体是啥概念", "choice": "explain", "recent": [], "family": "test-explain-02", "source": "authored synthetic"}
+{"text": "想理解步数折线的斜率", "choice": "explain", "recent": [], "family": "test-explain-03", "source": "authored synthetic"}
+{"text": "睡眠观测日和自然日有什么不同", "choice": "explain", "recent": [], "family": "test-explain-04", "source": "authored synthetic"}
+{"text": "怎样读懂步数取样覆盖率", "choice": "explain", "recent": [], "family": "test-explain-05", "source": "authored synthetic"}
+{"text": "记录了零步和缺少一天到底有何不同", "choice": "explain", "recent": [], "family": "test-explain-06", "source": "authored synthetic"}
+{"text": "请描述睡眠累计值和日均值的关系", "choice": "explain", "recent": [], "family": "test-explain-07", "source": "authored synthetic"}
+{"text": "为什么两周步数均值接近但总量不同", "choice": "explain", "recent": [], "family": "test-explain-08", "source": "authored synthetic"}
+{"text": "睡眠记录中断那行应如何看待", "choice": "explain", "recent": [], "family": "test-explain-09", "source": "authored synthetic"}
+{"text": "我想把走路安排进午饭后，有什么可坚持的办法", "choice": "plan", "recent": [], "family": "test-plan-00", "source": "authored synthetic"}
+{"text": "来一个适合经常加班的人坚持的睡眠行动方案", "choice": "plan", "recent": [], "family": "test-plan-01", "source": "authored synthetic"}
+{"text": "天气热想改到早晨走，有啥合理的安排", "choice": "plan", "recent": [], "family": "test-plan-02", "source": "authored synthetic"}
+{"text": "想先从很短的散步开始，你建议怎么排", "choice": "plan", "recent": [], "family": "test-plan-03", "source": "authored synthetic"}
+{"text": "我想逐周把睡眠作息稳定下来，能给个行动清单吗", "choice": "plan", "recent": [], "family": "test-plan-04", "source": "authored synthetic"}
+{"text": "如果只考虑有空的工作日，怎样设计步行习惯", "choice": "plan", "recent": [], "family": "test-plan-05", "source": "authored synthetic"}
+{"text": "每天下班晚，怎么做一个容易遵守的睡眠准备流程", "choice": "plan", "recent": [], "family": "test-plan-06", "source": "authored synthetic"}
+{"text": "出门不便，帮我找在家活动的替代方案", "choice": "plan", "recent": [], "family": "test-plan-07", "source": "authored synthetic"}
+{"text": "刚开始记录步数，怎样慢慢养成习惯", "choice": "plan", "recent": [], "family": "test-plan-08", "source": "authored synthetic"}
+{"text": "有什么容易接受的一周睡眠调整安排", "choice": "plan", "recent": [], "family": "test-plan-09", "source": "authored synthetic"}
+{"text": "已定的步行标准，这几天兑现得如何", "choice": "review_goal", "recent": [], "family": "test-review_goal-00", "source": "authored synthetic"}
+{"text": "本周睡眠计划的执行成效可以复核吗", "choice": "review_goal", "recent": [], "family": "test-review_goal-01", "source": "authored synthetic"}
+{"text": "对照前几天定的步数门槛，新数据有多少合格日", "choice": "review_goal", "recent": [], "family": "test-review_goal-02", "source": "authored synthetic"}
+{"text": "这一周睡眠目标完成比例怎么样", "choice": "review_goal", "recent": [], "family": "test-review_goal-03", "source": "authored synthetic"}
+{"text": "原先那个行走目标还有多少差距", "choice": "review_goal", "recent": [], "family": "test-review_goal-04", "source": "authored synthetic"}
+{"text": "请按现有目标检查近期步数执行度", "choice": "review_goal", "recent": [], "family": "test-review_goal-05", "source": "authored synthetic"}
+{"text": "能不能验收一下每日睡够这个目标", "choice": "review_goal", "recent": [], "family": "test-review_goal-06", "source": "authored synthetic"}
+{"text": "按此前的睡眠指标盘点一下过线的天数", "choice": "review_goal", "recent": [], "family": "test-review_goal-07", "source": "authored synthetic"}
+{"text": "用最新两周步数看我走路目标的完成度", "choice": "review_goal", "recent": [], "family": "test-review_goal-08", "source": "authored synthetic"}
+{"text": "昨天我的睡眠达到已设阈值了吗", "choice": "review_goal", "recent": [], "family": "test-review_goal-09", "source": "authored synthetic"}
+{"text": "今天不用核查走路量", "choice": "unknown", "recent": [], "family": "test-unknown-00", "source": "authored synthetic"}
+{"text": "什么时候再讨论睡眠目标都行，今天先不做", "choice": "unknown", "recent": [], "family": "test-unknown-01", "source": "authored synthetic"}
+{"text": "我只是说朋友睡了六个小时", "choice": "unknown", "recent": [], "family": "test-unknown-02", "source": "authored synthetic"}
+{"text": "请将我的睡眠指标写成每天七小时目标", "choice": "unknown", "recent": [], "family": "test-unknown-03", "source": "authored synthetic"}
+{"text": "步数先别算，等我上传新数据再说", "choice": "unknown", "recent": [], "family": "test-unknown-04", "source": "authored synthetic"}
+{"text": "我对昨晚的睡眠已经完成检查", "choice": "unknown", "recent": [], "family": "test-unknown-05", "source": "authored synthetic"}
+{"text": "想用步数猜一下手表的购买价格", "choice": "unknown", "recent": [], "family": "test-unknown-06", "source": "authored synthetic"}
+{"text": "我刚睡醒喉咙不适，判断是什么病", "choice": "unknown", "recent": [], "family": "test-unknown-07", "source": "authored synthetic"}
+{"text": "睡眠规划目前不用调整", "choice": "unknown", "recent": [], "family": "test-unknown-08", "source": "authored synthetic"}
+{"text": "要是下个月加班再来做步行计划", "choice": "unknown", "recent": [], "family": "test-unknown-09", "source": "authored synthetic"}
+{"text": "把另一段也放进来", "choice": "analyze", "recent": [["我在对比前一周和这一周的睡眠时长", "目前只有前一周的数据。"]], "family": "test-context-00", "source": "authored synthetic dialogue"}
+{"text": "只要后半段的合计", "choice": "analyze", "recent": [["我上传了两周的步数", "需要怎样统计？"]], "family": "test-context-01", "source": "authored synthetic dialogue"}
+{"text": "怎么会看起来反过来", "choice": "explain", "recent": [["我这周步数总量更高，日均却更低", "可以解释两种统计口径。"]], "family": "test-context-02", "source": "authored synthetic dialogue"}
+{"text": "说清这数代表的意思", "choice": "explain", "recent": [["结果里出现睡眠记录覆盖率", "你想了解它的计算口径吗？"]], "family": "test-context-03", "source": "authored synthetic dialogue"}
+{"text": "想办法换一个在家能坚持的", "choice": "plan", "recent": [["户外步行计划这周很难实行", "需要调整活动方案吗？"]], "family": "test-context-04", "source": "authored synthetic dialogue"}
+{"text": "把它安排到早班之前吧", "choice": "plan", "recent": [["我想固定一个步行时段", "你平时什么时间方便？"]], "family": "test-context-05", "source": "authored synthetic dialogue"}
+{"text": "帮我看看兑现了几成", "choice": "review_goal", "recent": [["我想回顾之前约定的睡眠目标", "有最新数据可用。"]], "family": "test-context-06", "source": "authored synthetic dialogue"}
+{"text": "那我赶上预定进度了吗", "choice": "review_goal", "recent": [["目标是这周连续三天达步数门槛", "已经导入这周的活动数据。"]], "family": "test-context-07", "source": "authored synthetic dialogue"}
+{"text": "这回先不做了", "choice": "unknown", "recent": [["下周睡眠计划要我帮你制定吗", "你需要时我可以安排。"]], "family": "test-context-08", "source": "authored synthetic dialogue"}
+{"text": "直接把数字录进去", "choice": "unknown", "recent": [["现在的每日步数目标还是八千吗", "之前的目标是八千。"]], "family": "test-context-09", "source": "authored synthetic dialogue"}

@@ -1,0 +1,3 @@
+This site uses a subset of columns projected from the Google PHA public synthetic summary sample.
+Copyright 2025 Google LLC. Licensed under Apache License 2.0 (data-LICENSE.txt).
+Source: https://github.com/Google-Health/consumer-health-research/tree/3e9d1e4877a54cf81ce8ef34085006952dd19601/personal_health_agent/data/sample

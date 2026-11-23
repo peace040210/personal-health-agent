@@ -1,0 +1,20 @@
+{
+  "question": "我现在就想拿点能在室内做的办法",
+  "synthetic_daily_rows": 365,
+  "local_intent": "Qwen3-0.6B closed choice",
+  "workflow": {
+    "main_agent": "HC",
+    "supporting_agents": [],
+    "assignment_source": "model",
+    "subquery_source": "model"
+  },
+  "trace": [
+    {
+      "agent": "HC",
+      "operation": "plan",
+      "metric": "steps",
+      "received_from": [],
+      "used_model": false
+    }
+  ]
+}

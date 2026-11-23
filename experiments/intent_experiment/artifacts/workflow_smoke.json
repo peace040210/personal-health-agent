@@ -1,0 +1,14 @@
+{
+  "question": "给个能塞进午饭后的招",
+  "synthetic_daily_rows": 365,
+  "local_intent_calls": 1,
+  "workflow_model": "DeepSeek-V4.1-Flash",
+  "assignment_source": "model",
+  "subquery_source": "model",
+  "tasks": [
+    "plan"
+  ],
+  "agents": [
+    "HC"
+  ]
+}

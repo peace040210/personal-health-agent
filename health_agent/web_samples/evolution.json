@@ -1,0 +1,1685 @@
+{
+  "run": "de-20261123-084104-9d44e9",
+  "version": "de-20261123-084104-9d44e9-g1-c1",
+  "status": "released",
+  "baseline": {
+    "dev": {
+      "passed": 20,
+      "total": 30,
+      "families": 6,
+      "guard_failures": 0,
+      "search_calls": 50
+    },
+    "val": {
+      "passed": 10,
+      "total": 15,
+      "families": 3,
+      "guard_failures": 0,
+      "search_calls": 25
+    },
+    "test": {
+      "passed": 10,
+      "total": 15,
+      "families": 3,
+      "guard_failures": 0,
+      "search_calls": 30
+    }
+  },
+  "final": {
+    "dev": {
+      "passed": 30,
+      "total": 30,
+      "families": 6,
+      "guard_failures": 0,
+      "search_calls": 50
+    },
+    "val": {
+      "passed": 15,
+      "total": 15,
+      "families": 3,
+      "guard_failures": 0,
+      "search_calls": 25
+    },
+    "test": {
+      "passed": 15,
+      "total": 15,
+      "families": 3,
+      "guard_failures": 0,
+      "search_calls": 30
+    }
+  },
+  "cases": {
+    "duration-index-gap": {
+      "case": "duration-index-gap-1",
+      "family": "duration-index-gap",
+      "question": "有没有论文比较每日步数和当晚总睡眠时长",
+      "expected": "direct",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "empty",
+          "found": 0,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Walking programme and sleep duration",
+          "url": "https://example.invalid/de-replay/duration-index-gap/broader",
+          "fit": "context",
+          "quote": "An 8-week intervention studied physical activity and sleep duration.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": false,
+      "split": "dev"
+    },
+    "n3-timing-language": {
+      "case": "n3-timing-language-1",
+      "family": "n3-timing-language",
+      "question": "查一下走得多的日子当晚深睡时长的研究",
+      "expected": "direct",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+          "status": "empty",
+          "found": 0,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Physical activity and slow wave sleep",
+          "url": "https://example.invalid/de-replay/n3-timing-language/strict",
+          "fit": "context",
+          "quote": "Walking and slow wave sleep were measured in a 12-week intervention.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和深睡时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": false,
+      "split": "dev"
+    },
+    "exact-duration-indexed": {
+      "case": "exact-duration-indexed-1",
+      "family": "exact-duration-indexed",
+      "question": "查当天的步数和当晚总睡眠时长",
+      "expected": "direct",
+      "actual": "direct",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Same-night total sleep time and step counts",
+          "url": "https://example.invalid/de-replay/exact-duration-indexed/strict",
+          "fit": "direct",
+          "quote": "Daily step counts were paired with same-night total sleep time for each participant.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": true,
+      "split": "dev"
+    },
+    "wrong-sleep-outcome": {
+      "case": "wrong-sleep-outcome-1",
+      "family": "wrong-sleep-outcome",
+      "question": "当日步数和当晚深睡有研究吗",
+      "expected": "context",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Same-night total sleep time",
+          "url": "https://example.invalid/de-replay/wrong-sleep-outcome/strict",
+          "fit": "context",
+          "quote": "Daily steps were paired with total sleep time on the same night.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "睡眠结局口径未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        },
+        {
+          "source": "PubMed",
+          "title": "Physical activity and deep sleep",
+          "url": "https://example.invalid/de-replay/wrong-sleep-outcome/broader",
+          "fit": "context",
+          "quote": "Physical activity and deep sleep were compared in a long-term intervention.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和深睡时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": true,
+      "split": "dev"
+    },
+    "nonmatching-records": {
+      "case": "nonmatching-records-1",
+      "family": "nonmatching-records",
+      "question": "找每日步数和当晚睡眠总时长证据",
+      "expected": "insufficient",
+      "actual": "insufficient",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": true,
+      "split": "dev"
+    },
+    "public-sleep-definition": {
+      "case": "public-sleep-definition-1",
+      "family": "public-sleep-definition",
+      "question": "什么是总睡眠时间",
+      "expected": "context",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "medlineplus",
+          "query": "healthy sleep",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "MedlinePlus.gov",
+          "title": "Measuring sleep duration",
+          "url": "https://example.invalid/de-replay/public-sleep-definition/guidance",
+          "fit": "context",
+          "quote": "Sleep duration is the amount of time a person is asleep during the measured period.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [],
+      "passed": true,
+      "split": "dev"
+    },
+    "duration-following-night": {
+      "case": "duration-following-night-1",
+      "family": "duration-following-night",
+      "question": "找计步和当晚的睡眠总时长论文",
+      "expected": "direct",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Physical activity and duration",
+          "url": "https://example.invalid/de-replay/duration-following-night/strict",
+          "fit": "context",
+          "quote": "Adults reported walking time and sleep duration in a survey.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        },
+        {
+          "source": "PubMed",
+          "title": "Walking intervention",
+          "url": "https://example.invalid/de-replay/duration-following-night/broader",
+          "fit": "context",
+          "quote": "A 10-week intervention measured walking and total sleep time.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": false,
+      "split": "val"
+    },
+    "n3-exact-indexed": {
+      "case": "n3-exact-indexed-1",
+      "family": "n3-exact-indexed",
+      "question": "请查每日走路步数与当晚深睡的研究",
+      "expected": "direct",
+      "actual": "direct",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Same-night N3 sleep and step counts",
+          "url": "https://example.invalid/de-replay/n3-exact-indexed/strict",
+          "fit": "direct",
+          "quote": "Step counts measured on each study day were paired with N3 sleep on the same night.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": true,
+      "split": "val"
+    },
+    "self-reported-no-temporal-order": {
+      "case": "self-reported-no-temporal-order-1",
+      "family": "self-reported-no-temporal-order",
+      "question": "白天走得多会跟当晚睡眠时长有关吗，有研究吗",
+      "expected": "context",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Daily steps and typical sleep duration",
+          "url": "https://example.invalid/de-replay/self-reported-no-temporal-order/strict",
+          "fit": "context",
+          "quote": "A survey asked for daily steps and usual sleep duration without linking dates.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        },
+        {
+          "source": "PubMed",
+          "title": "Walking and reported sleep",
+          "url": "https://example.invalid/de-replay/self-reported-no-temporal-order/broader",
+          "fit": "context",
+          "quote": "The study recorded physical activity and typical sleep duration.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": true,
+      "split": "val"
+    },
+    "n3-only-in-abstract": {
+      "case": "n3-only-in-abstract-1",
+      "family": "n3-only-in-abstract",
+      "question": "按天走路步数与当晚深睡有没有论文",
+      "expected": "direct",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "empty",
+          "found": 0,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Walking and sleep after eight weeks",
+          "url": "https://example.invalid/de-replay/n3-only-in-abstract/broader",
+          "fit": "context",
+          "quote": "Walking and N3 sleep were tracked throughout an 8-week intervention.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和深睡时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": false,
+      "split": "test"
+    },
+    "sleep-missing-activity": {
+      "case": "sleep-missing-activity-1",
+      "family": "sleep-missing-activity",
+      "question": "找当天步数与当晚睡眠总时间的研究",
+      "expected": "insufficient",
+      "actual": "insufficient",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": true,
+      "split": "test"
+    },
+    "same-night-wrong-exposure": {
+      "case": "same-night-wrong-exposure-1",
+      "family": "same-night-wrong-exposure",
+      "question": "当天步数多不多与晚上睡得久不久，有研究吗",
+      "expected": "context",
+      "actual": "context",
+      "guard_passed": true,
+      "searches": [
+        {
+          "round": 1,
+          "tool": "pubmed",
+          "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        },
+        {
+          "round": 2,
+          "tool": "pubmed",
+          "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+          "status": "ok",
+          "found": 1,
+          "detail": ""
+        }
+      ],
+      "findings": [
+        {
+          "source": "PubMed",
+          "title": "Exercise minutes and sleep duration",
+          "url": "https://example.invalid/de-replay/same-night-wrong-exposure/strict",
+          "fit": "context",
+          "quote": "Each participant recorded exercise minutes and sleep duration on the following night.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        },
+        {
+          "source": "PubMed",
+          "title": "General activity and sleep duration",
+          "url": "https://example.invalid/de-replay/same-night-wrong-exposure/broader",
+          "fit": "context",
+          "quote": "The survey reported sleep duration and physical activity.",
+          "year": "",
+          "publication_type": "",
+          "scope_notes": [
+            "步数口径未确认",
+            "与当晚时间顺序的匹配未确认",
+            "研究人群与个人情境可能有差异"
+          ],
+          "population_statistic": null
+        }
+      ],
+      "limitations": [
+        "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+        "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+      ],
+      "passed": true,
+      "split": "test"
+    }
+  },
+  "candidates": [
+    {
+      "version": "de-20261123-084104-9d44e9-g1-c1",
+      "status": "selected",
+      "policy": {
+        "joint_search_order": "retry-without-timing"
+      },
+      "rationale": "失败轨迹显示严格时序查询常返回空或仅上下文，而第二轮改用广义活动后仍只得到 context，说明问题出在时序过滤而非指标词。仅放宽时序、保留步数与结局，更可能命中同日配对研究，同时不牺牲已正确命中严格查询的场景。",
+      "dev": {
+        "passed": 30,
+        "total": 30,
+        "families": 6,
+        "guard_failures": 0,
+        "search_calls": 50
+      },
+      "val": {
+        "passed": 15,
+        "total": 15,
+        "families": 3,
+        "guard_failures": 0,
+        "search_calls": 25
+      },
+      "val_regressions": 0,
+      "cases": {
+        "duration-index-gap": {
+          "case": "duration-index-gap-1",
+          "family": "duration-index-gap",
+          "question": "有没有论文比较每日步数和当晚总睡眠时长",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "empty",
+              "found": 0,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Daily steps and sleep duration",
+              "url": "https://example.invalid/de-replay/duration-index-gap/metrics",
+              "fit": "direct",
+              "quote": "We measured daily steps and total sleep time on the following night in community adults.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "n3-timing-language": {
+          "case": "n3-timing-language-1",
+          "family": "n3-timing-language",
+          "question": "查一下走得多的日子当晚深睡时长的研究",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Pedometer counts and N3 sleep",
+              "url": "https://example.invalid/de-replay/n3-timing-language/metrics",
+              "fit": "direct",
+              "quote": "A pedometer recorded daily steps and a sleep lab assessed slow-wave sleep on the night following each observation.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            },
+            {
+              "source": "PubMed",
+              "title": "Physical activity and slow wave sleep",
+              "url": "https://example.invalid/de-replay/n3-timing-language/strict",
+              "fit": "context",
+              "quote": "Walking and slow wave sleep were measured in a 12-week intervention.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "exact-duration-indexed": {
+          "case": "exact-duration-indexed-1",
+          "family": "exact-duration-indexed",
+          "question": "查当天的步数和当晚总睡眠时长",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Same-night total sleep time and step counts",
+              "url": "https://example.invalid/de-replay/exact-duration-indexed/strict",
+              "fit": "direct",
+              "quote": "Daily step counts were paired with same-night total sleep time for each participant.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "wrong-sleep-outcome": {
+          "case": "wrong-sleep-outcome-1",
+          "family": "wrong-sleep-outcome",
+          "question": "当日步数和当晚深睡有研究吗",
+          "expected": "context",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Same-night total sleep time",
+              "url": "https://example.invalid/de-replay/wrong-sleep-outcome/strict",
+              "fit": "context",
+              "quote": "Daily steps were paired with total sleep time on the same night.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "睡眠结局口径未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            },
+            {
+              "source": "PubMed",
+              "title": "Sleep stages after training",
+              "url": "https://example.invalid/de-replay/wrong-sleep-outcome/metrics",
+              "fit": "context",
+              "quote": "Walking and deep sleep were assessed during a 6-week intervention.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和深睡时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "nonmatching-records": {
+          "case": "nonmatching-records-1",
+          "family": "nonmatching-records",
+          "question": "找每日步数和当晚睡眠总时长证据",
+          "expected": "insufficient",
+          "actual": "insufficient",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "empty",
+              "found": 0,
+              "detail": ""
+            }
+          ],
+          "findings": [],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "public-sleep-definition": {
+          "case": "public-sleep-definition-1",
+          "family": "public-sleep-definition",
+          "question": "什么是总睡眠时间",
+          "expected": "context",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "medlineplus",
+              "query": "healthy sleep",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "MedlinePlus.gov",
+              "title": "Measuring sleep duration",
+              "url": "https://example.invalid/de-replay/public-sleep-definition/guidance",
+              "fit": "context",
+              "quote": "Sleep duration is the amount of time a person is asleep during the measured period.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [],
+          "passed": true
+        },
+        "duration-following-night": {
+          "case": "duration-following-night-1",
+          "family": "duration-following-night",
+          "question": "找计步和当晚的睡眠总时长论文",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Daily observations in shift workers",
+              "url": "https://example.invalid/de-replay/duration-following-night/metrics",
+              "fit": "direct",
+              "quote": "We linked steps per day and sleep duration in the subsequent night using participant logs.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            },
+            {
+              "source": "PubMed",
+              "title": "Physical activity and duration",
+              "url": "https://example.invalid/de-replay/duration-following-night/strict",
+              "fit": "context",
+              "quote": "Adults reported walking time and sleep duration in a survey.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "n3-exact-indexed": {
+          "case": "n3-exact-indexed-1",
+          "family": "n3-exact-indexed",
+          "question": "请查每日走路步数与当晚深睡的研究",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Same-night N3 sleep and step counts",
+              "url": "https://example.invalid/de-replay/n3-exact-indexed/strict",
+              "fit": "direct",
+              "quote": "Step counts measured on each study day were paired with N3 sleep on the same night.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "self-reported-no-temporal-order": {
+          "case": "self-reported-no-temporal-order-1",
+          "family": "self-reported-no-temporal-order",
+          "question": "白天走得多会跟当晚睡眠时长有关吗，有研究吗",
+          "expected": "context",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Daily steps and typical sleep duration",
+              "url": "https://example.invalid/de-replay/self-reported-no-temporal-order/strict",
+              "fit": "context",
+              "quote": "A survey asked for daily steps and usual sleep duration without linking dates.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            },
+            {
+              "source": "PubMed",
+              "title": "Sleep duration following a walking intervention",
+              "url": "https://example.invalid/de-replay/self-reported-no-temporal-order/metrics",
+              "fit": "context",
+              "quote": "A 12-week intervention examined daily steps and sleep duration.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "n3-only-in-abstract": {
+          "case": "n3-only-in-abstract-1",
+          "family": "n3-only-in-abstract",
+          "question": "按天走路步数与当晚深睡有没有论文",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "empty",
+              "found": 0,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Day and night measurements in a home cohort",
+              "url": "https://example.invalid/de-replay/n3-only-in-abstract/metrics",
+              "fit": "direct",
+              "quote": "The number of steps and deep sleep duration on the following night were measured for each day.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "sleep-missing-activity": {
+          "case": "sleep-missing-activity-1",
+          "family": "sleep-missing-activity",
+          "question": "找当天步数与当晚睡眠总时间的研究",
+          "expected": "insufficient",
+          "actual": "insufficient",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "same-night-wrong-exposure": {
+          "case": "same-night-wrong-exposure-1",
+          "family": "same-night-wrong-exposure",
+          "question": "当天步数多不多与晚上睡得久不久，有研究吗",
+          "expected": "context",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab]) AND (\"same night\"[tiab] OR \"subsequent sleep\"[tiab] OR daily[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Exercise minutes and sleep duration",
+              "url": "https://example.invalid/de-replay/same-night-wrong-exposure/strict",
+              "fit": "context",
+              "quote": "Each participant recorded exercise minutes and sleep duration on the following night.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            },
+            {
+              "source": "PubMed",
+              "title": "Duration of physical activity and same-night sleep",
+              "url": "https://example.invalid/de-replay/same-night-wrong-exposure/metrics",
+              "fit": "context",
+              "quote": "We paired minutes of physical activity with same-night total sleep time.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        }
+      },
+      "regressions": []
+    },
+    {
+      "version": "de-20261123-084104-9d44e9-g1-c2",
+      "status": "rejected",
+      "policy": {
+        "joint_search_order": "metrics-first"
+      },
+      "rationale": "案例中严格时序查询多次为空或仅 context，而放宽到广义活动后仍为 context，表明时序词是主要瓶颈。先按指标检索可保留步数与结局的精确性，减少因时序词缺失导致的漏检，同时不改变来源核查与引文要求。",
+      "dev": {
+        "passed": 25,
+        "total": 30,
+        "families": 6,
+        "guard_failures": 0,
+        "search_calls": 45
+      },
+      "val": {
+        "passed": 10,
+        "total": 15,
+        "families": 3,
+        "guard_failures": 0,
+        "search_calls": 25
+      },
+      "val_regressions": 5,
+      "cases": {
+        "duration-index-gap": {
+          "case": "duration-index-gap-1",
+          "family": "duration-index-gap",
+          "question": "有没有论文比较每日步数和当晚总睡眠时长",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Daily steps and sleep duration",
+              "url": "https://example.invalid/de-replay/duration-index-gap/metrics",
+              "fit": "direct",
+              "quote": "We measured daily steps and total sleep time on the following night in community adults.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "n3-timing-language": {
+          "case": "n3-timing-language-1",
+          "family": "n3-timing-language",
+          "question": "查一下走得多的日子当晚深睡时长的研究",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Pedometer counts and N3 sleep",
+              "url": "https://example.invalid/de-replay/n3-timing-language/metrics",
+              "fit": "direct",
+              "quote": "A pedometer recorded daily steps and a sleep lab assessed slow-wave sleep on the night following each observation.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "exact-duration-indexed": {
+          "case": "exact-duration-indexed-1",
+          "family": "exact-duration-indexed",
+          "question": "查当天的步数和当晚总睡眠时长",
+          "expected": "direct",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "empty",
+              "found": 0,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Retrospective steps survey",
+              "url": "https://example.invalid/de-replay/exact-duration-indexed/metrics",
+              "fit": "context",
+              "quote": "The survey compared daily steps and sleep duration without matching activity and sleep by date.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": false
+        },
+        "wrong-sleep-outcome": {
+          "case": "wrong-sleep-outcome-1",
+          "family": "wrong-sleep-outcome",
+          "question": "当日步数和当晚深睡有研究吗",
+          "expected": "context",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Sleep stages after training",
+              "url": "https://example.invalid/de-replay/wrong-sleep-outcome/metrics",
+              "fit": "context",
+              "quote": "Walking and deep sleep were assessed during a 6-week intervention.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            },
+            {
+              "source": "PubMed",
+              "title": "Physical activity and deep sleep",
+              "url": "https://example.invalid/de-replay/wrong-sleep-outcome/broader",
+              "fit": "context",
+              "quote": "Physical activity and deep sleep were compared in a long-term intervention.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和深睡时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "nonmatching-records": {
+          "case": "nonmatching-records-1",
+          "family": "nonmatching-records",
+          "question": "找每日步数和当晚睡眠总时长证据",
+          "expected": "insufficient",
+          "actual": "insufficient",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "empty",
+              "found": 0,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "public-sleep-definition": {
+          "case": "public-sleep-definition-1",
+          "family": "public-sleep-definition",
+          "question": "什么是总睡眠时间",
+          "expected": "context",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "medlineplus",
+              "query": "healthy sleep",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "MedlinePlus.gov",
+              "title": "Measuring sleep duration",
+              "url": "https://example.invalid/de-replay/public-sleep-definition/guidance",
+              "fit": "context",
+              "quote": "Sleep duration is the amount of time a person is asleep during the measured period.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [],
+          "passed": true
+        },
+        "duration-following-night": {
+          "case": "duration-following-night-1",
+          "family": "duration-following-night",
+          "question": "找计步和当晚的睡眠总时长论文",
+          "expected": "direct",
+          "actual": "direct",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Daily observations in shift workers",
+              "url": "https://example.invalid/de-replay/duration-following-night/metrics",
+              "fit": "direct",
+              "quote": "We linked steps per day and sleep duration in the subsequent night using participant logs.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        },
+        "n3-exact-indexed": {
+          "case": "n3-exact-indexed-1",
+          "family": "n3-exact-indexed",
+          "question": "请查每日走路步数与当晚深睡的研究",
+          "expected": "direct",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"deep sleep\"[tiab] OR \"slow wave sleep\"[tiab] OR N3[tiab])",
+              "status": "empty",
+              "found": 0,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Exercise and N3 sleep",
+              "url": "https://example.invalid/de-replay/n3-exact-indexed/metrics",
+              "fit": "context",
+              "quote": "A 4-week intervention measured walking and N3 sleep.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和深睡时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": false
+        },
+        "self-reported-no-temporal-order": {
+          "case": "self-reported-no-temporal-order-1",
+          "family": "self-reported-no-temporal-order",
+          "question": "白天走得多会跟当晚睡眠时长有关吗，有研究吗",
+          "expected": "context",
+          "actual": "context",
+          "guard_passed": true,
+          "searches": [
+            {
+              "round": 1,
+              "tool": "pubmed",
+              "query": "(\"step count\"[tiab] OR \"daily steps\"[tiab] OR pedometer[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            },
+            {
+              "round": 2,
+              "tool": "pubmed",
+              "query": "(walking[tiab] OR \"physical activity\"[tiab]) AND (\"sleep duration\"[tiab] OR \"total sleep time\"[tiab])",
+              "status": "ok",
+              "found": 1,
+              "detail": ""
+            }
+          ],
+          "findings": [
+            {
+              "source": "PubMed",
+              "title": "Sleep duration following a walking intervention",
+              "url": "https://example.invalid/de-replay/self-reported-no-temporal-order/metrics",
+              "fit": "context",
+              "quote": "A 12-week intervention examined daily steps and sleep duration.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            },
+            {
+              "source": "PubMed",
+              "title": "Walking and reported sleep",
+              "url": "https://example.invalid/de-replay/self-reported-no-temporal-order/broader",
+              "fit": "context",
+              "quote": "The study recorded physical activity and typical sleep duration.",
+              "year": "",
+              "publication_type": "",
+              "scope_notes": [
+                "步数口径未确认",
+                "与当晚时间顺序的匹配未确认",
+                "研究人群与个人情境可能有差异"
+              ],
+              "population_statistic": null
+            }
+          ],
+          "limitations": [
+            "本轮未核实到同时匹配每日步数、当晚时间顺序和总睡眠时长的研究，相关资料只能作为背景。",
+            "个人记录中的分组差异只能描述观察结果，不能据此判断步数变化导致了睡眠变化。"
+          ],
+          "passed": true
+        }
+      },
+      "regressions": [
+        "n3-exact-indexed-1",
+        "n3-exact-indexed-2",
+        "n3-exact-indexed-3",
+        "n3-exact-indexed-4",
+        "n3-exact-indexed-5"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "from_version": "v1",
+      "version": "de-20261123-084104-9d44e9-g1-c1",
+      "policy": {
+        "joint_search_order": "retry-without-timing"
+      },
+      "what_changed": "失败轨迹显示严格时序查询常返回空或仅上下文，而第二轮改用广义活动后仍只得到 context，说明问题出在时序过滤而非指标词。仅放宽时序、保留步数与结局，更可能命中同日配对研究，同时不牺牲已正确命中严格查询的场景。",
+      "recovered_families": [
+        "duration-index-gap",
+        "n3-timing-language"
+      ],
+      "dev_before": {
+        "passed": 20,
+        "total": 30,
+        "families": 6,
+        "guard_failures": 0,
+        "search_calls": 50
+      },
+      "dev_after": {
+        "passed": 30,
+        "total": 30,
+        "families": 6,
+        "guard_failures": 0,
+        "search_calls": 50
+      },
+      "val_after": {
+        "passed": 15,
+        "total": 15,
+        "families": 3,
+        "guard_failures": 0,
+        "search_calls": 25
+      }
+    }
+  ]
+}

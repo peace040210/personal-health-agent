@@ -1,0 +1,270 @@
+{"text": "近十四天有效的睡眠记录有几天", "choice": "analyze", "recent": [], "family": "train-analyze-00", "source": "authored synthetic"}
+{"text": "近十四天有效的睡眠记录有几天？", "choice": "analyze", "recent": [], "family": "train-analyze-00", "source": "authored synthetic"}
+{"text": "嗯，近十四天有效的睡眠记录有几天", "choice": "analyze", "recent": [], "family": "train-analyze-00", "source": "authored synthetic"}
+{"text": "我想问下，近十四天有效的睡眠记录有几天", "choice": "analyze", "recent": [], "family": "train-analyze-00", "source": "authored synthetic"}
+{"text": "把工作日的步数加起来", "choice": "analyze", "recent": [], "family": "train-analyze-01", "source": "authored synthetic"}
+{"text": "把工作日的步数加起来？", "choice": "analyze", "recent": [], "family": "train-analyze-01", "source": "authored synthetic"}
+{"text": "嗯，把工作日的步数加起来", "choice": "analyze", "recent": [], "family": "train-analyze-01", "source": "authored synthetic"}
+{"text": "我想问下，把工作日的步数加起来", "choice": "analyze", "recent": [], "family": "train-analyze-01", "source": "authored synthetic"}
+{"text": "上周和上上周平均每天走多少步", "choice": "analyze", "recent": [], "family": "train-analyze-02", "source": "authored synthetic"}
+{"text": "上周和上上周平均每天走多少步？", "choice": "analyze", "recent": [], "family": "train-analyze-02", "source": "authored synthetic"}
+{"text": "嗯，上周和上上周平均每天走多少步", "choice": "analyze", "recent": [], "family": "train-analyze-02", "source": "authored synthetic"}
+{"text": "我想问下，上周和上上周平均每天走多少步", "choice": "analyze", "recent": [], "family": "train-analyze-02", "source": "authored synthetic"}
+{"text": "按时间看看睡眠时长的波动", "choice": "analyze", "recent": [], "family": "train-analyze-03", "source": "authored synthetic"}
+{"text": "按时间看看睡眠时长的波动？", "choice": "analyze", "recent": [], "family": "train-analyze-03", "source": "authored synthetic"}
+{"text": "嗯，按时间看看睡眠时长的波动", "choice": "analyze", "recent": [], "family": "train-analyze-03", "source": "authored synthetic"}
+{"text": "我想问下，按时间看看睡眠时长的波动", "choice": "analyze", "recent": [], "family": "train-analyze-03", "source": "authored synthetic"}
+{"text": "最近一周步数最低的那天是多少", "choice": "analyze", "recent": [], "family": "train-analyze-04", "source": "authored synthetic"}
+{"text": "最近一周步数最低的那天是多少？", "choice": "analyze", "recent": [], "family": "train-analyze-04", "source": "authored synthetic"}
+{"text": "嗯，最近一周步数最低的那天是多少", "choice": "analyze", "recent": [], "family": "train-analyze-04", "source": "authored synthetic"}
+{"text": "我想问下，最近一周步数最低的那天是多少", "choice": "analyze", "recent": [], "family": "train-analyze-04", "source": "authored synthetic"}
+{"text": "把昨晚的睡眠记录调出来", "choice": "analyze", "recent": [], "family": "train-analyze-05", "source": "authored synthetic"}
+{"text": "把昨晚的睡眠记录调出来？", "choice": "analyze", "recent": [], "family": "train-analyze-05", "source": "authored synthetic"}
+{"text": "嗯，把昨晚的睡眠记录调出来", "choice": "analyze", "recent": [], "family": "train-analyze-05", "source": "authored synthetic"}
+{"text": "我想问下，把昨晚的睡眠记录调出来", "choice": "analyze", "recent": [], "family": "train-analyze-05", "source": "authored synthetic"}
+{"text": "能给我近十天步数逐日概况吗", "choice": "analyze", "recent": [], "family": "train-analyze-06", "source": "authored synthetic"}
+{"text": "能给我近十天步数逐日概况吗？", "choice": "analyze", "recent": [], "family": "train-analyze-06", "source": "authored synthetic"}
+{"text": "嗯，能给我近十天步数逐日概况吗", "choice": "analyze", "recent": [], "family": "train-analyze-06", "source": "authored synthetic"}
+{"text": "我想问下，能给我近十天步数逐日概况吗", "choice": "analyze", "recent": [], "family": "train-analyze-06", "source": "authored synthetic"}
+{"text": "本周睡眠时长大致在什么范围", "choice": "analyze", "recent": [], "family": "train-analyze-07", "source": "authored synthetic"}
+{"text": "本周睡眠时长大致在什么范围？", "choice": "analyze", "recent": [], "family": "train-analyze-07", "source": "authored synthetic"}
+{"text": "嗯，本周睡眠时长大致在什么范围", "choice": "analyze", "recent": [], "family": "train-analyze-07", "source": "authored synthetic"}
+{"text": "我想问下，本周睡眠时长大致在什么范围", "choice": "analyze", "recent": [], "family": "train-analyze-07", "source": "authored synthetic"}
+{"text": "看看运动日与其他日的睡眠时长差值", "choice": "analyze", "recent": [], "family": "train-analyze-08", "source": "authored synthetic"}
+{"text": "看看运动日与其他日的睡眠时长差值？", "choice": "analyze", "recent": [], "family": "train-analyze-08", "source": "authored synthetic"}
+{"text": "嗯，看看运动日与其他日的睡眠时长差值", "choice": "analyze", "recent": [], "family": "train-analyze-08", "source": "authored synthetic"}
+{"text": "我想问下，看看运动日与其他日的睡眠时长差值", "choice": "analyze", "recent": [], "family": "train-analyze-08", "source": "authored synthetic"}
+{"text": "这几天步数整体往上还是往下", "choice": "analyze", "recent": [], "family": "train-analyze-09", "source": "authored synthetic"}
+{"text": "这几天步数整体往上还是往下？", "choice": "analyze", "recent": [], "family": "train-analyze-09", "source": "authored synthetic"}
+{"text": "嗯，这几天步数整体往上还是往下", "choice": "analyze", "recent": [], "family": "train-analyze-09", "source": "authored synthetic"}
+{"text": "我想问下，这几天步数整体往上还是往下", "choice": "analyze", "recent": [], "family": "train-analyze-09", "source": "authored synthetic"}
+{"text": "上个月哪天睡眠时间最长", "choice": "analyze", "recent": [], "family": "train-analyze-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "上个月哪天睡眠时间最长？", "choice": "analyze", "recent": [], "family": "train-analyze-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，上个月哪天睡眠时间最长", "choice": "analyze", "recent": [], "family": "train-analyze-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，上个月哪天睡眠时间最长", "choice": "analyze", "recent": [], "family": "train-analyze-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "上周每天大概走多少步", "choice": "analyze", "recent": [], "family": "train-analyze-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "上周每天大概走多少步？", "choice": "analyze", "recent": [], "family": "train-analyze-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，上周每天大概走多少步", "choice": "analyze", "recent": [], "family": "train-analyze-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，上周每天大概走多少步", "choice": "analyze", "recent": [], "family": "train-analyze-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "这一周和上一周的睡眠时长有何变化", "choice": "analyze", "recent": [], "family": "train-analyze-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "这一周和上一周的睡眠时长有何变化？", "choice": "analyze", "recent": [], "family": "train-analyze-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，这一周和上一周的睡眠时长有何变化", "choice": "analyze", "recent": [], "family": "train-analyze-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，这一周和上一周的睡眠时长有何变化", "choice": "analyze", "recent": [], "family": "train-analyze-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "给我一份最近的每日活动概况", "choice": "analyze", "recent": [], "family": "train-analyze-13", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "给我一份最近的每日活动概况？", "choice": "analyze", "recent": [], "family": "train-analyze-13", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，给我一份最近的每日活动概况", "choice": "analyze", "recent": [], "family": "train-analyze-13", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，给我一份最近的每日活动概况", "choice": "analyze", "recent": [], "family": "train-analyze-13", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "为什么没记录的天不能算成零步", "choice": "explain", "recent": [], "family": "train-explain-00", "source": "authored synthetic"}
+{"text": "为什么没记录的天不能算成零步？", "choice": "explain", "recent": [], "family": "train-explain-00", "source": "authored synthetic"}
+{"text": "嗯，为什么没记录的天不能算成零步", "choice": "explain", "recent": [], "family": "train-explain-00", "source": "authored synthetic"}
+{"text": "我想问下，为什么没记录的天不能算成零步", "choice": "explain", "recent": [], "family": "train-explain-00", "source": "authored synthetic"}
+{"text": "睡眠时长的均值和中位数有何区别", "choice": "explain", "recent": [], "family": "train-explain-01", "source": "authored synthetic"}
+{"text": "睡眠时长的均值和中位数有何区别？", "choice": "explain", "recent": [], "family": "train-explain-01", "source": "authored synthetic"}
+{"text": "嗯，睡眠时长的均值和中位数有何区别", "choice": "explain", "recent": [], "family": "train-explain-01", "source": "authored synthetic"}
+{"text": "我想问下，睡眠时长的均值和中位数有何区别", "choice": "explain", "recent": [], "family": "train-explain-01", "source": "authored synthetic"}
+{"text": "何谓步数的有效记录天数", "choice": "explain", "recent": [], "family": "train-explain-02", "source": "authored synthetic"}
+{"text": "何谓步数的有效记录天数？", "choice": "explain", "recent": [], "family": "train-explain-02", "source": "authored synthetic"}
+{"text": "嗯，何谓步数的有效记录天数", "choice": "explain", "recent": [], "family": "train-explain-02", "source": "authored synthetic"}
+{"text": "我想问下，何谓步数的有效记录天数", "choice": "explain", "recent": [], "family": "train-explain-02", "source": "authored synthetic"}
+{"text": "报表里说睡眠覆盖不足是什么意思", "choice": "explain", "recent": [], "family": "train-explain-03", "source": "authored synthetic"}
+{"text": "报表里说睡眠覆盖不足是什么意思？", "choice": "explain", "recent": [], "family": "train-explain-03", "source": "authored synthetic"}
+{"text": "嗯，报表里说睡眠覆盖不足是什么意思", "choice": "explain", "recent": [], "family": "train-explain-03", "source": "authored synthetic"}
+{"text": "我想问下，报表里说睡眠覆盖不足是什么意思", "choice": "explain", "recent": [], "family": "train-explain-03", "source": "authored synthetic"}
+{"text": "看步数走势时为什么要留意周末与工作日", "choice": "explain", "recent": [], "family": "train-explain-04", "source": "authored synthetic"}
+{"text": "看步数走势时为什么要留意周末与工作日？", "choice": "explain", "recent": [], "family": "train-explain-04", "source": "authored synthetic"}
+{"text": "嗯，看步数走势时为什么要留意周末与工作日", "choice": "explain", "recent": [], "family": "train-explain-04", "source": "authored synthetic"}
+{"text": "我想问下，看步数走势时为什么要留意周末与工作日", "choice": "explain", "recent": [], "family": "train-explain-04", "source": "authored synthetic"}
+{"text": "两个睡眠窗口缺失天数不同会怎样影响解读", "choice": "explain", "recent": [], "family": "train-explain-05", "source": "authored synthetic"}
+{"text": "两个睡眠窗口缺失天数不同会怎样影响解读？", "choice": "explain", "recent": [], "family": "train-explain-05", "source": "authored synthetic"}
+{"text": "嗯，两个睡眠窗口缺失天数不同会怎样影响解读", "choice": "explain", "recent": [], "family": "train-explain-05", "source": "authored synthetic"}
+{"text": "我想问下，两个睡眠窗口缺失天数不同会怎样影响解读", "choice": "explain", "recent": [], "family": "train-explain-05", "source": "authored synthetic"}
+{"text": "给我讲讲怎样读睡眠线性趋势", "choice": "explain", "recent": [], "family": "train-explain-06", "source": "authored synthetic"}
+{"text": "给我讲讲怎样读睡眠线性趋势？", "choice": "explain", "recent": [], "family": "train-explain-06", "source": "authored synthetic"}
+{"text": "嗯，给我讲讲怎样读睡眠线性趋势", "choice": "explain", "recent": [], "family": "train-explain-06", "source": "authored synthetic"}
+{"text": "我想问下，给我讲讲怎样读睡眠线性趋势", "choice": "explain", "recent": [], "family": "train-explain-06", "source": "authored synthetic"}
+{"text": "为什么我的步数日均值和总数是两种指标", "choice": "explain", "recent": [], "family": "train-explain-07", "source": "authored synthetic"}
+{"text": "为什么我的步数日均值和总数是两种指标？", "choice": "explain", "recent": [], "family": "train-explain-07", "source": "authored synthetic"}
+{"text": "嗯，为什么我的步数日均值和总数是两种指标", "choice": "explain", "recent": [], "family": "train-explain-07", "source": "authored synthetic"}
+{"text": "我想问下，为什么我的步数日均值和总数是两种指标", "choice": "explain", "recent": [], "family": "train-explain-07", "source": "authored synthetic"}
+{"text": "睡眠总时长和卧床时长如何区分", "choice": "explain", "recent": [], "family": "train-explain-08", "source": "authored synthetic"}
+{"text": "睡眠总时长和卧床时长如何区分？", "choice": "explain", "recent": [], "family": "train-explain-08", "source": "authored synthetic"}
+{"text": "嗯，睡眠总时长和卧床时长如何区分", "choice": "explain", "recent": [], "family": "train-explain-08", "source": "authored synthetic"}
+{"text": "我想问下，睡眠总时长和卧床时长如何区分", "choice": "explain", "recent": [], "family": "train-explain-08", "source": "authored synthetic"}
+{"text": "什么叫只在有记录日计算步数均值", "choice": "explain", "recent": [], "family": "train-explain-09", "source": "authored synthetic"}
+{"text": "什么叫只在有记录日计算步数均值？", "choice": "explain", "recent": [], "family": "train-explain-09", "source": "authored synthetic"}
+{"text": "嗯，什么叫只在有记录日计算步数均值", "choice": "explain", "recent": [], "family": "train-explain-09", "source": "authored synthetic"}
+{"text": "我想问下，什么叫只在有记录日计算步数均值", "choice": "explain", "recent": [], "family": "train-explain-09", "source": "authored synthetic"}
+{"text": "什么是睡眠时长", "choice": "explain", "recent": [], "family": "train-explain-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "什么是睡眠时长？", "choice": "explain", "recent": [], "family": "train-explain-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，什么是睡眠时长", "choice": "explain", "recent": [], "family": "train-explain-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，什么是睡眠时长", "choice": "explain", "recent": [], "family": "train-explain-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "步数和运动时长的概念有什么区别", "choice": "explain", "recent": [], "family": "train-explain-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "步数和运动时长的概念有什么区别？", "choice": "explain", "recent": [], "family": "train-explain-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，步数和运动时长的概念有什么区别", "choice": "explain", "recent": [], "family": "train-explain-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，步数和运动时长的概念有什么区别", "choice": "explain", "recent": [], "family": "train-explain-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "怎样理解睡眠时长变化的含义", "choice": "explain", "recent": [], "family": "train-explain-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "怎样理解睡眠时长变化的含义？", "choice": "explain", "recent": [], "family": "train-explain-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，怎样理解睡眠时长变化的含义", "choice": "explain", "recent": [], "family": "train-explain-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，怎样理解睡眠时长变化的含义", "choice": "explain", "recent": [], "family": "train-explain-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "怎样安排一周的散步时间更方便坚持", "choice": "plan", "recent": [], "family": "train-plan-00", "source": "authored synthetic"}
+{"text": "怎样安排一周的散步时间更方便坚持？", "choice": "plan", "recent": [], "family": "train-plan-00", "source": "authored synthetic"}
+{"text": "嗯，怎样安排一周的散步时间更方便坚持", "choice": "plan", "recent": [], "family": "train-plan-00", "source": "authored synthetic"}
+{"text": "我想问下，怎样安排一周的散步时间更方便坚持", "choice": "plan", "recent": [], "family": "train-plan-00", "source": "authored synthetic"}
+{"text": "最近睡得不规律，帮我设计个下班后的习惯", "choice": "plan", "recent": [], "family": "train-plan-01", "source": "authored synthetic"}
+{"text": "最近睡得不规律，帮我设计个下班后的习惯？", "choice": "plan", "recent": [], "family": "train-plan-01", "source": "authored synthetic"}
+{"text": "嗯，最近睡得不规律，帮我设计个下班后的习惯", "choice": "plan", "recent": [], "family": "train-plan-01", "source": "authored synthetic"}
+{"text": "我想问下，最近睡得不规律，帮我设计个下班后的习惯", "choice": "plan", "recent": [], "family": "train-plan-01", "source": "authored synthetic"}
+{"text": "我工作日太忙，给一个周末步行方案", "choice": "plan", "recent": [], "family": "train-plan-02", "source": "authored synthetic"}
+{"text": "我工作日太忙，给一个周末步行方案？", "choice": "plan", "recent": [], "family": "train-plan-02", "source": "authored synthetic"}
+{"text": "嗯，我工作日太忙，给一个周末步行方案", "choice": "plan", "recent": [], "family": "train-plan-02", "source": "authored synthetic"}
+{"text": "我想问下，我工作日太忙，给一个周末步行方案", "choice": "plan", "recent": [], "family": "train-plan-02", "source": "authored synthetic"}
+{"text": "怎么逐渐养成日常走路的习惯", "choice": "plan", "recent": [], "family": "train-plan-03", "source": "authored synthetic"}
+{"text": "怎么逐渐养成日常走路的习惯？", "choice": "plan", "recent": [], "family": "train-plan-03", "source": "authored synthetic"}
+{"text": "嗯，怎么逐渐养成日常走路的习惯", "choice": "plan", "recent": [], "family": "train-plan-03", "source": "authored synthetic"}
+{"text": "我想问下，怎么逐渐养成日常走路的习惯", "choice": "plan", "recent": [], "family": "train-plan-03", "source": "authored synthetic"}
+{"text": "给我几种不用增加时间也能多走的做法", "choice": "plan", "recent": [], "family": "train-plan-04", "source": "authored synthetic"}
+{"text": "给我几种不用增加时间也能多走的做法？", "choice": "plan", "recent": [], "family": "train-plan-04", "source": "authored synthetic"}
+{"text": "嗯，给我几种不用增加时间也能多走的做法", "choice": "plan", "recent": [], "family": "train-plan-04", "source": "authored synthetic"}
+{"text": "我想问下，给我几种不用增加时间也能多走的做法", "choice": "plan", "recent": [], "family": "train-plan-04", "source": "authored synthetic"}
+{"text": "下周有三天出差，帮我改一下每天走路的安排", "choice": "plan", "recent": [], "family": "train-plan-05", "source": "authored synthetic"}
+{"text": "下周有三天出差，帮我改一下每天走路的安排？", "choice": "plan", "recent": [], "family": "train-plan-05", "source": "authored synthetic"}
+{"text": "嗯，下周有三天出差，帮我改一下每天走路的安排", "choice": "plan", "recent": [], "family": "train-plan-05", "source": "authored synthetic"}
+{"text": "我想问下，下周有三天出差，帮我改一下每天走路的安排", "choice": "plan", "recent": [], "family": "train-plan-05", "source": "authored synthetic"}
+{"text": "我想连续两周养成记录睡眠的习惯，怎么做", "choice": "plan", "recent": [], "family": "train-plan-06", "source": "authored synthetic"}
+{"text": "我想连续两周养成记录睡眠的习惯，怎么做？", "choice": "plan", "recent": [], "family": "train-plan-06", "source": "authored synthetic"}
+{"text": "嗯，我想连续两周养成记录睡眠的习惯，怎么做", "choice": "plan", "recent": [], "family": "train-plan-06", "source": "authored synthetic"}
+{"text": "我想问下，我想连续两周养成记录睡眠的习惯，怎么做", "choice": "plan", "recent": [], "family": "train-plan-06", "source": "authored synthetic"}
+{"text": "想让自己的睡眠更规律，给个容易做到的起点", "choice": "plan", "recent": [], "family": "train-plan-07", "source": "authored synthetic"}
+{"text": "想让自己的睡眠更规律，给个容易做到的起点？", "choice": "plan", "recent": [], "family": "train-plan-07", "source": "authored synthetic"}
+{"text": "嗯，想让自己的睡眠更规律，给个容易做到的起点", "choice": "plan", "recent": [], "family": "train-plan-07", "source": "authored synthetic"}
+{"text": "我想问下，想让自己的睡眠更规律，给个容易做到的起点", "choice": "plan", "recent": [], "family": "train-plan-07", "source": "authored synthetic"}
+{"text": "帮我把步行习惯拆成几个轻量步骤", "choice": "plan", "recent": [], "family": "train-plan-08", "source": "authored synthetic"}
+{"text": "帮我把步行习惯拆成几个轻量步骤？", "choice": "plan", "recent": [], "family": "train-plan-08", "source": "authored synthetic"}
+{"text": "嗯，帮我把步行习惯拆成几个轻量步骤", "choice": "plan", "recent": [], "family": "train-plan-08", "source": "authored synthetic"}
+{"text": "我想问下，帮我把步行习惯拆成几个轻量步骤", "choice": "plan", "recent": [], "family": "train-plan-08", "source": "authored synthetic"}
+{"text": "我的时间很零碎，散步可以怎样规划", "choice": "plan", "recent": [], "family": "train-plan-09", "source": "authored synthetic"}
+{"text": "我的时间很零碎，散步可以怎样规划？", "choice": "plan", "recent": [], "family": "train-plan-09", "source": "authored synthetic"}
+{"text": "嗯，我的时间很零碎，散步可以怎样规划", "choice": "plan", "recent": [], "family": "train-plan-09", "source": "authored synthetic"}
+{"text": "我想问下，我的时间很零碎，散步可以怎样规划", "choice": "plan", "recent": [], "family": "train-plan-09", "source": "authored synthetic"}
+{"text": "我怎样改善自己的睡眠习惯", "choice": "plan", "recent": [], "family": "train-plan-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我怎样改善自己的睡眠习惯？", "choice": "plan", "recent": [], "family": "train-plan-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，我怎样改善自己的睡眠习惯", "choice": "plan", "recent": [], "family": "train-plan-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，我怎样改善自己的睡眠习惯", "choice": "plan", "recent": [], "family": "train-plan-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "帮我建立一个更有规律的步行计划", "choice": "plan", "recent": [], "family": "train-plan-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "帮我建立一个更有规律的步行计划？", "choice": "plan", "recent": [], "family": "train-plan-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，帮我建立一个更有规律的步行计划", "choice": "plan", "recent": [], "family": "train-plan-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，帮我建立一个更有规律的步行计划", "choice": "plan", "recent": [], "family": "train-plan-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "外面下雨了，帮我调整今天的步行安排", "choice": "plan", "recent": [], "family": "train-plan-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "外面下雨了，帮我调整今天的步行安排？", "choice": "plan", "recent": [], "family": "train-plan-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，外面下雨了，帮我调整今天的步行安排", "choice": "plan", "recent": [], "family": "train-plan-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，外面下雨了，帮我调整今天的步行安排", "choice": "plan", "recent": [], "family": "train-plan-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "这周睡眠目标完成得如何", "choice": "review_goal", "recent": [], "family": "train-review_goal-00", "source": "authored synthetic"}
+{"text": "这周睡眠目标完成得如何？", "choice": "review_goal", "recent": [], "family": "train-review_goal-00", "source": "authored synthetic"}
+{"text": "嗯，这周睡眠目标完成得如何", "choice": "review_goal", "recent": [], "family": "train-review_goal-00", "source": "authored synthetic"}
+{"text": "我想问下，这周睡眠目标完成得如何", "choice": "review_goal", "recent": [], "family": "train-review_goal-00", "source": "authored synthetic"}
+{"text": "回顾上周步数达标的比例", "choice": "review_goal", "recent": [], "family": "train-review_goal-01", "source": "authored synthetic"}
+{"text": "回顾上周步数达标的比例？", "choice": "review_goal", "recent": [], "family": "train-review_goal-01", "source": "authored synthetic"}
+{"text": "嗯，回顾上周步数达标的比例", "choice": "review_goal", "recent": [], "family": "train-review_goal-01", "source": "authored synthetic"}
+{"text": "我想问下，回顾上周步数达标的比例", "choice": "review_goal", "recent": [], "family": "train-review_goal-01", "source": "authored synthetic"}
+{"text": "按我已存的每日步数目标，有几天完成了", "choice": "review_goal", "recent": [], "family": "train-review_goal-02", "source": "authored synthetic"}
+{"text": "按我已存的每日步数目标，有几天完成了？", "choice": "review_goal", "recent": [], "family": "train-review_goal-02", "source": "authored synthetic"}
+{"text": "嗯，按我已存的每日步数目标，有几天完成了", "choice": "review_goal", "recent": [], "family": "train-review_goal-02", "source": "authored synthetic"}
+{"text": "我想问下，按我已存的每日步数目标，有几天完成了", "choice": "review_goal", "recent": [], "family": "train-review_goal-02", "source": "authored synthetic"}
+{"text": "我离连续一周睡够的目标还有几天", "choice": "review_goal", "recent": [], "family": "train-review_goal-03", "source": "authored synthetic"}
+{"text": "我离连续一周睡够的目标还有几天？", "choice": "review_goal", "recent": [], "family": "train-review_goal-03", "source": "authored synthetic"}
+{"text": "嗯，我离连续一周睡够的目标还有几天", "choice": "review_goal", "recent": [], "family": "train-review_goal-03", "source": "authored synthetic"}
+{"text": "我想问下，我离连续一周睡够的目标还有几天", "choice": "review_goal", "recent": [], "family": "train-review_goal-03", "source": "authored synthetic"}
+{"text": "复查近十天的步数目标执行情况", "choice": "review_goal", "recent": [], "family": "train-review_goal-04", "source": "authored synthetic"}
+{"text": "复查近十天的步数目标执行情况？", "choice": "review_goal", "recent": [], "family": "train-review_goal-04", "source": "authored synthetic"}
+{"text": "嗯，复查近十天的步数目标执行情况", "choice": "review_goal", "recent": [], "family": "train-review_goal-04", "source": "authored synthetic"}
+{"text": "我想问下，复查近十天的步数目标执行情况", "choice": "review_goal", "recent": [], "family": "train-review_goal-04", "source": "authored synthetic"}
+{"text": "结合新记录小结睡眠计划的完成情况", "choice": "review_goal", "recent": [], "family": "train-review_goal-05", "source": "authored synthetic"}
+{"text": "结合新记录小结睡眠计划的完成情况？", "choice": "review_goal", "recent": [], "family": "train-review_goal-05", "source": "authored synthetic"}
+{"text": "嗯，结合新记录小结睡眠计划的完成情况", "choice": "review_goal", "recent": [], "family": "train-review_goal-05", "source": "authored synthetic"}
+{"text": "我想问下，结合新记录小结睡眠计划的完成情况", "choice": "review_goal", "recent": [], "family": "train-review_goal-05", "source": "authored synthetic"}
+{"text": "昨天步数是否达到了之前的门槛", "choice": "review_goal", "recent": [], "family": "train-review_goal-06", "source": "authored synthetic"}
+{"text": "昨天步数是否达到了之前的门槛？", "choice": "review_goal", "recent": [], "family": "train-review_goal-06", "source": "authored synthetic"}
+{"text": "嗯，昨天步数是否达到了之前的门槛", "choice": "review_goal", "recent": [], "family": "train-review_goal-06", "source": "authored synthetic"}
+{"text": "我想问下，昨天步数是否达到了之前的门槛", "choice": "review_goal", "recent": [], "family": "train-review_goal-06", "source": "authored synthetic"}
+{"text": "按已有睡眠目标，列出本周达标天数", "choice": "review_goal", "recent": [], "family": "train-review_goal-07", "source": "authored synthetic"}
+{"text": "按已有睡眠目标，列出本周达标天数？", "choice": "review_goal", "recent": [], "family": "train-review_goal-07", "source": "authored synthetic"}
+{"text": "嗯，按已有睡眠目标，列出本周达标天数", "choice": "review_goal", "recent": [], "family": "train-review_goal-07", "source": "authored synthetic"}
+{"text": "我想问下，按已有睡眠目标，列出本周达标天数", "choice": "review_goal", "recent": [], "family": "train-review_goal-07", "source": "authored synthetic"}
+{"text": "之前设好了步数目标，最近进展怎样", "choice": "review_goal", "recent": [], "family": "train-review_goal-08", "source": "authored synthetic"}
+{"text": "之前设好了步数目标，最近进展怎样？", "choice": "review_goal", "recent": [], "family": "train-review_goal-08", "source": "authored synthetic"}
+{"text": "嗯，之前设好了步数目标，最近进展怎样", "choice": "review_goal", "recent": [], "family": "train-review_goal-08", "source": "authored synthetic"}
+{"text": "我想问下，之前设好了步数目标，最近进展怎样", "choice": "review_goal", "recent": [], "family": "train-review_goal-08", "source": "authored synthetic"}
+{"text": "上周睡眠目标有多少天没完成", "choice": "review_goal", "recent": [], "family": "train-review_goal-09", "source": "authored synthetic"}
+{"text": "上周睡眠目标有多少天没完成？", "choice": "review_goal", "recent": [], "family": "train-review_goal-09", "source": "authored synthetic"}
+{"text": "嗯，上周睡眠目标有多少天没完成", "choice": "review_goal", "recent": [], "family": "train-review_goal-09", "source": "authored synthetic"}
+{"text": "我想问下，上周睡眠目标有多少天没完成", "choice": "review_goal", "recent": [], "family": "train-review_goal-09", "source": "authored synthetic"}
+{"text": "按最近的训练记录，我距离步行目标还有多远", "choice": "review_goal", "recent": [], "family": "train-review_goal-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "按最近的训练记录，我距离步行目标还有多远？", "choice": "review_goal", "recent": [], "family": "train-review_goal-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，按最近的训练记录，我距离步行目标还有多远", "choice": "review_goal", "recent": [], "family": "train-review_goal-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，按最近的训练记录，我距离步行目标还有多远", "choice": "review_goal", "recent": [], "family": "train-review_goal-10", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "结合最近记录判断我的活动计划是否按进度推进", "choice": "review_goal", "recent": [], "family": "train-review_goal-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "结合最近记录判断我的活动计划是否按进度推进？", "choice": "review_goal", "recent": [], "family": "train-review_goal-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，结合最近记录判断我的活动计划是否按进度推进", "choice": "review_goal", "recent": [], "family": "train-review_goal-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，结合最近记录判断我的活动计划是否按进度推进", "choice": "review_goal", "recent": [], "family": "train-review_goal-11", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "帮我设置每天八小时的睡眠目标", "choice": "unknown", "recent": [], "family": "train-unknown-00", "source": "authored synthetic"}
+{"text": "帮我设置每天八小时的睡眠目标？", "choice": "unknown", "recent": [], "family": "train-unknown-00", "source": "authored synthetic"}
+{"text": "嗯，帮我设置每天八小时的睡眠目标", "choice": "unknown", "recent": [], "family": "train-unknown-00", "source": "authored synthetic"}
+{"text": "我想问下，帮我设置每天八小时的睡眠目标", "choice": "unknown", "recent": [], "family": "train-unknown-00", "source": "authored synthetic"}
+{"text": "不用计算昨天的步数", "choice": "unknown", "recent": [], "family": "train-unknown-01", "source": "authored synthetic"}
+{"text": "不用计算昨天的步数？", "choice": "unknown", "recent": [], "family": "train-unknown-01", "source": "authored synthetic"}
+{"text": "嗯，不用计算昨天的步数", "choice": "unknown", "recent": [], "family": "train-unknown-01", "source": "authored synthetic"}
+{"text": "我想问下，不用计算昨天的步数", "choice": "unknown", "recent": [], "family": "train-unknown-01", "source": "authored synthetic"}
+{"text": "上周的睡眠我已经查过了", "choice": "unknown", "recent": [], "family": "train-unknown-02", "source": "authored synthetic"}
+{"text": "上周的睡眠我已经查过了？", "choice": "unknown", "recent": [], "family": "train-unknown-02", "source": "authored synthetic"}
+{"text": "嗯，上周的睡眠我已经查过了", "choice": "unknown", "recent": [], "family": "train-unknown-02", "source": "authored synthetic"}
+{"text": "我想问下，上周的睡眠我已经查过了", "choice": "unknown", "recent": [], "family": "train-unknown-02", "source": "authored synthetic"}
+{"text": "下周再一起复盘这次走路目标", "choice": "unknown", "recent": [], "family": "train-unknown-03", "source": "authored synthetic"}
+{"text": "下周再一起复盘这次走路目标？", "choice": "unknown", "recent": [], "family": "train-unknown-03", "source": "authored synthetic"}
+{"text": "嗯，下周再一起复盘这次走路目标", "choice": "unknown", "recent": [], "family": "train-unknown-03", "source": "authored synthetic"}
+{"text": "我想问下，下周再一起复盘这次走路目标", "choice": "unknown", "recent": [], "family": "train-unknown-03", "source": "authored synthetic"}
+{"text": "如果有空再给我做睡眠计划", "choice": "unknown", "recent": [], "family": "train-unknown-04", "source": "authored synthetic"}
+{"text": "如果有空再给我做睡眠计划？", "choice": "unknown", "recent": [], "family": "train-unknown-04", "source": "authored synthetic"}
+{"text": "嗯，如果有空再给我做睡眠计划", "choice": "unknown", "recent": [], "family": "train-unknown-04", "source": "authored synthetic"}
+{"text": "我想问下，如果有空再给我做睡眠计划", "choice": "unknown", "recent": [], "family": "train-unknown-04", "source": "authored synthetic"}
+{"text": "我只是在提到以前的步数目标", "choice": "unknown", "recent": [], "family": "train-unknown-05", "source": "authored synthetic"}
+{"text": "我只是在提到以前的步数目标？", "choice": "unknown", "recent": [], "family": "train-unknown-05", "source": "authored synthetic"}
+{"text": "嗯，我只是在提到以前的步数目标", "choice": "unknown", "recent": [], "family": "train-unknown-05", "source": "authored synthetic"}
+{"text": "我想问下，我只是在提到以前的步数目标", "choice": "unknown", "recent": [], "family": "train-unknown-05", "source": "authored synthetic"}
+{"text": "帮我查一下运动手表的保修期限", "choice": "unknown", "recent": [], "family": "train-unknown-06", "source": "authored synthetic"}
+{"text": "帮我查一下运动手表的保修期限？", "choice": "unknown", "recent": [], "family": "train-unknown-06", "source": "authored synthetic"}
+{"text": "嗯，帮我查一下运动手表的保修期限", "choice": "unknown", "recent": [], "family": "train-unknown-06", "source": "authored synthetic"}
+{"text": "我想问下，帮我查一下运动手表的保修期限", "choice": "unknown", "recent": [], "family": "train-unknown-06", "source": "authored synthetic"}
+{"text": "睡眠记录能帮我诊断是什么疾病吗", "choice": "unknown", "recent": [], "family": "train-unknown-07", "source": "authored synthetic"}
+{"text": "睡眠记录能帮我诊断是什么疾病吗？", "choice": "unknown", "recent": [], "family": "train-unknown-07", "source": "authored synthetic"}
+{"text": "嗯，睡眠记录能帮我诊断是什么疾病吗", "choice": "unknown", "recent": [], "family": "train-unknown-07", "source": "authored synthetic"}
+{"text": "我想问下，睡眠记录能帮我诊断是什么疾病吗", "choice": "unknown", "recent": [], "family": "train-unknown-07", "source": "authored synthetic"}
+{"text": "不用解释睡眠时长的统计原理", "choice": "unknown", "recent": [], "family": "train-unknown-08", "source": "authored synthetic"}
+{"text": "不用解释睡眠时长的统计原理？", "choice": "unknown", "recent": [], "family": "train-unknown-08", "source": "authored synthetic"}
+{"text": "嗯，不用解释睡眠时长的统计原理", "choice": "unknown", "recent": [], "family": "train-unknown-08", "source": "authored synthetic"}
+{"text": "我想问下，不用解释睡眠时长的统计原理", "choice": "unknown", "recent": [], "family": "train-unknown-08", "source": "authored synthetic"}
+{"text": "把我的每日步数目标直接改成九千", "choice": "unknown", "recent": [], "family": "train-unknown-09", "source": "authored synthetic"}
+{"text": "把我的每日步数目标直接改成九千？", "choice": "unknown", "recent": [], "family": "train-unknown-09", "source": "authored synthetic"}
+{"text": "嗯，把我的每日步数目标直接改成九千", "choice": "unknown", "recent": [], "family": "train-unknown-09", "source": "authored synthetic"}
+{"text": "我想问下，把我的每日步数目标直接改成九千", "choice": "unknown", "recent": [], "family": "train-unknown-09", "source": "authored synthetic"}
+{"text": "我听说有人在比较步数，随口一提", "choice": "unknown", "recent": [], "family": "train-unknown-10", "source": "authored synthetic"}
+{"text": "我听说有人在比较步数，随口一提？", "choice": "unknown", "recent": [], "family": "train-unknown-10", "source": "authored synthetic"}
+{"text": "嗯，我听说有人在比较步数，随口一提", "choice": "unknown", "recent": [], "family": "train-unknown-10", "source": "authored synthetic"}
+{"text": "我想问下，我听说有人在比较步数，随口一提", "choice": "unknown", "recent": [], "family": "train-unknown-10", "source": "authored synthetic"}
+{"text": "睡眠那个先放着吧", "choice": "unknown", "recent": [], "family": "train-unknown-11", "source": "authored synthetic"}
+{"text": "睡眠那个先放着吧？", "choice": "unknown", "recent": [], "family": "train-unknown-11", "source": "authored synthetic"}
+{"text": "嗯，睡眠那个先放着吧", "choice": "unknown", "recent": [], "family": "train-unknown-11", "source": "authored synthetic"}
+{"text": "我想问下，睡眠那个先放着吧", "choice": "unknown", "recent": [], "family": "train-unknown-11", "source": "authored synthetic"}
+{"text": "喉咙痒并且吞咽困难，可能是怎么回事", "choice": "unknown", "recent": [], "family": "train-unknown-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "喉咙痒并且吞咽困难，可能是怎么回事？", "choice": "unknown", "recent": [], "family": "train-unknown-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "嗯，喉咙痒并且吞咽困难，可能是怎么回事", "choice": "unknown", "recent": [], "family": "train-unknown-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "我想问下，喉咙痒并且吞咽困难，可能是怎么回事", "choice": "unknown", "recent": [], "family": "train-unknown-12", "source": "Nature Supplementary Table S1, Chinese task adaptation"}
+{"text": "今天呢", "choice": "analyze", "recent": [["我想看每天的睡眠时长", "你想从哪一天开始看？"]], "family": "train-context-00", "source": "authored synthetic dialogue"}
+{"text": "两周放一起看看", "choice": "analyze", "recent": [["目前显示本周步数", "要加上上周来比较吗？"]], "family": "train-context-01", "source": "authored synthetic dialogue"}
+{"text": "那个分母为何这样取", "choice": "explain", "recent": [["睡眠平均值只用了有记录的日子", "这个统计有一个分母。"]], "family": "train-context-02", "source": "authored synthetic dialogue"}
+{"text": "那个零该怎么看", "choice": "explain", "recent": [["我的步数记录里有一天是零", "你想看数值含义吗？"]], "family": "train-context-03", "source": "authored synthetic dialogue"}
+{"text": "给个能塞进通勤里的做法", "choice": "plan", "recent": [["我想多走路，但工作忙", "有什么时间方便活动？"]], "family": "train-context-04", "source": "authored synthetic dialogue"}
+{"text": "让它轻松一点，工作日能用", "choice": "plan", "recent": [["我想建立规律睡眠习惯", "我们在设计你的行动方案。"]], "family": "train-context-05", "source": "authored synthetic dialogue"}
+{"text": "回顾一下执行进展", "choice": "review_goal", "recent": [["我之前设过每日步数目标", "可以按这个目标复盘。"]], "family": "train-context-06", "source": "authored synthetic dialogue"}
+{"text": "这几天都过线了吗", "choice": "review_goal", "recent": [["我的睡眠时长目标是每天七小时", "目标已经保存。"]], "family": "train-context-07", "source": "authored synthetic dialogue"}
+{"text": "已经看过了", "choice": "unknown", "recent": [["你想看看上周的睡眠吗", "需要我计算吗？"]], "family": "train-context-08", "source": "authored synthetic dialogue"}
+{"text": "改成一万", "choice": "unknown", "recent": [["你的当前步数目标是八千", "是否要另设一个目标？"]], "family": "train-context-09", "source": "authored synthetic dialogue"}

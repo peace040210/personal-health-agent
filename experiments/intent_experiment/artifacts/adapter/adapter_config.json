@@ -1,0 +1,46 @@
+{
+    "adapter_path": "experiments/intent_experiment/artifacts/adapter",
+    "batch_size": 4,
+    "clear_cache_threshold": 0,
+    "config": null,
+    "data": "experiments/intent_experiment/data",
+    "fine_tune_type": "lora",
+    "grad_accumulation_steps": 1,
+    "grad_checkpoint": false,
+    "iters": 96,
+    "learning_rate": 0.0001,
+    "lora_parameters": {
+        "rank": 8,
+        "scale": 16.0,
+        "dropout": 0.0,
+        "keys": [
+            "self_attn.q_proj",
+            "self_attn.v_proj"
+        ]
+    },
+    "lr_schedule": null,
+    "mask_prompt": true,
+    "max_seq_length": 512,
+    "model": "Qwen/Qwen3-0.6B",
+    "num_layers": 8,
+    "optimizer": "adam",
+    "optimizer_config": {
+        "adam": {},
+        "adamw": {},
+        "muon": {},
+        "sgd": {},
+        "adafactor": {}
+    },
+    "project_name": null,
+    "report_to": null,
+    "resume_adapter_file": null,
+    "save_every": 96,
+    "seed": 1370,
+    "steps_per_eval": 32,
+    "steps_per_report": 12,
+    "test": false,
+    "test_batches": 500,
+    "train": true,
+    "trust_remote_code": false,
+    "val_batches": -1
+}

@@ -1,0 +1,3732 @@
+{
+  "classifiers": {
+    "frozen_original": {
+      "correct": 55,
+      "total": 60,
+      "macro_f1": 0.9152,
+      "invalid": 0,
+      "by_label": {
+        "analyze": {
+          "support": 12,
+          "correct": 12,
+          "f1": 0.8889
+        },
+        "explain": {
+          "support": 12,
+          "correct": 12,
+          "f1": 1.0
+        },
+        "plan": {
+          "support": 12,
+          "correct": 12,
+          "f1": 0.96
+        },
+        "review_goal": {
+          "support": 12,
+          "correct": 9,
+          "f1": 0.8182
+        },
+        "unknown": {
+          "support": 12,
+          "correct": 10,
+          "f1": 0.9091
+        }
+      },
+      "median_ms": 36.9,
+      "p95_ms": 37.5,
+      "predictions": [
+        {
+          "text": "最近三天的睡眠时长中位数呢",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.894
+        },
+        {
+          "text": "周末的总步数摊到两天是多少",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 35.803
+        },
+        {
+          "text": "睡眠日志里哪一天最短",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.925
+        },
+        {
+          "text": "已上传的步数按周汇总给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.543
+        },
+        {
+          "text": "最近的睡眠记录缺了几晚",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.267
+        },
+        {
+          "text": "我这个星期走的总量报给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.966
+        },
+        {
+          "text": "比一下两个周末的走路量",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 34.847
+        },
+        {
+          "text": "前天那晚合计休息几小时",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.117
+        },
+        {
+          "text": "把近六日睡眠数字列一下",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.187
+        },
+        {
+          "text": "给我睡眠时长的最小最大值",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.335
+        },
+        {
+          "text": "步数走平应该怎么理解",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.396
+        },
+        {
+          "text": "哪种缺测会让睡眠均值偏高",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.887
+        },
+        {
+          "text": "这里的睡眠窗口具体是啥概念",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 35.599
+        },
+        {
+          "text": "想理解步数折线的斜率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.63
+        },
+        {
+          "text": "睡眠观测日和自然日有什么不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.207
+        },
+        {
+          "text": "怎样读懂步数取样覆盖率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 35.325
+        },
+        {
+          "text": "记录了零步和缺少一天到底有何不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.525
+        },
+        {
+          "text": "请描述睡眠累计值和日均值的关系",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.878
+        },
+        {
+          "text": "为什么两周步数均值接近但总量不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.944
+        },
+        {
+          "text": "睡眠记录中断那行应如何看待",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.144
+        },
+        {
+          "text": "我想把走路安排进午饭后，有什么可坚持的办法",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.402
+        },
+        {
+          "text": "来一个适合经常加班的人坚持的睡眠行动方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 34.78
+        },
+        {
+          "text": "天气热想改到早晨走，有啥合理的安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.662
+        },
+        {
+          "text": "想先从很短的散步开始，你建议怎么排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.982
+        },
+        {
+          "text": "我想逐周把睡眠作息稳定下来，能给个行动清单吗",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.587
+        },
+        {
+          "text": "如果只考虑有空的工作日，怎样设计步行习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.826
+        },
+        {
+          "text": "每天下班晚，怎么做一个容易遵守的睡眠准备流程",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.552
+        },
+        {
+          "text": "出门不便，帮我找在家活动的替代方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.535
+        },
+        {
+          "text": "刚开始记录步数，怎样慢慢养成习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.02
+        },
+        {
+          "text": "有什么容易接受的一周睡眠调整安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.119
+        },
+        {
+          "text": "已定的步行标准，这几天兑现得如何",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.398
+        },
+        {
+          "text": "本周睡眠计划的执行成效可以复核吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.439
+        },
+        {
+          "text": "对照前几天定的步数门槛，新数据有多少合格日",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 36.821
+        },
+        {
+          "text": "这一周睡眠目标完成比例怎么样",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.042
+        },
+        {
+          "text": "原先那个行走目标还有多少差距",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.914
+        },
+        {
+          "text": "请按现有目标检查近期步数执行度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.377
+        },
+        {
+          "text": "能不能验收一下每日睡够这个目标",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 35.879
+        },
+        {
+          "text": "按此前的睡眠指标盘点一下过线的天数",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 35.647
+        },
+        {
+          "text": "用最新两周步数看我走路目标的完成度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 35.175
+        },
+        {
+          "text": "昨天我的睡眠达到已设阈值了吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.931
+        },
+        {
+          "text": "今天不用核查走路量",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.419
+        },
+        {
+          "text": "什么时候再讨论睡眠目标都行，今天先不做",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.513
+        },
+        {
+          "text": "我只是说朋友睡了六个小时",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.264
+        },
+        {
+          "text": "请将我的睡眠指标写成每天七小时目标",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 37.053
+        },
+        {
+          "text": "步数先别算，等我上传新数据再说",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.472
+        },
+        {
+          "text": "我对昨晚的睡眠已经完成检查",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "review_goal",
+          "ms": 37.023
+        },
+        {
+          "text": "想用步数猜一下手表的购买价格",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.241
+        },
+        {
+          "text": "我刚睡醒喉咙不适，判断是什么病",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.924
+        },
+        {
+          "text": "睡眠规划目前不用调整",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.415
+        },
+        {
+          "text": "要是下个月加班再来做步行计划",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.032
+        },
+        {
+          "text": "把另一段也放进来",
+          "recent": [
+            [
+              "我在对比前一周和这一周的睡眠时长",
+              "目前只有前一周的数据。"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.127
+        },
+        {
+          "text": "只要后半段的合计",
+          "recent": [
+            [
+              "我上传了两周的步数",
+              "需要怎样统计？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.12
+        },
+        {
+          "text": "怎么会看起来反过来",
+          "recent": [
+            [
+              "我这周步数总量更高，日均却更低",
+              "可以解释两种统计口径。"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.925
+        },
+        {
+          "text": "说清这数代表的意思",
+          "recent": [
+            [
+              "结果里出现睡眠记录覆盖率",
+              "你想了解它的计算口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.09
+        },
+        {
+          "text": "想办法换一个在家能坚持的",
+          "recent": [
+            [
+              "户外步行计划这周很难实行",
+              "需要调整活动方案吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.091
+        },
+        {
+          "text": "把它安排到早班之前吧",
+          "recent": [
+            [
+              "我想固定一个步行时段",
+              "你平时什么时间方便？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.75
+        },
+        {
+          "text": "帮我看看兑现了几成",
+          "recent": [
+            [
+              "我想回顾之前约定的睡眠目标",
+              "有最新数据可用。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.538
+        },
+        {
+          "text": "那我赶上预定进度了吗",
+          "recent": [
+            [
+              "目标是这周连续三天达步数门槛",
+              "已经导入这周的活动数据。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.21
+        },
+        {
+          "text": "这回先不做了",
+          "recent": [
+            [
+              "下周睡眠计划要我帮你制定吗",
+              "你需要时我可以安排。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.963
+        },
+        {
+          "text": "直接把数字录进去",
+          "recent": [
+            [
+              "现在的每日步数目标还是八千吗",
+              "之前的目标是八千。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.783
+        }
+      ]
+    },
+    "scenario_test": {
+      "correct": 125,
+      "total": 140,
+      "macro_f1": 0.8916,
+      "invalid": 0,
+      "by_label": {
+        "analyze": {
+          "support": 28,
+          "correct": 28,
+          "f1": 0.9032
+        },
+        "explain": {
+          "support": 28,
+          "correct": 21,
+          "f1": 0.8571
+        },
+        "plan": {
+          "support": 28,
+          "correct": 28,
+          "f1": 0.9032
+        },
+        "review_goal": {
+          "support": 28,
+          "correct": 24,
+          "f1": 0.8889
+        },
+        "unknown": {
+          "support": 28,
+          "correct": 24,
+          "f1": 0.9057
+        }
+      },
+      "median_ms": 36.6,
+      "p95_ms": 37.5,
+      "predictions": [
+        {
+          "text": "步数在换手机后的前六天这段按记录日摊下来是多少？",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 35.438
+        },
+        {
+          "text": "想知道换手机后的前六天的步数有没有比换手机前的六天高。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.161
+        },
+        {
+          "text": "换手机后的前六天的步数哪一条最低，麻烦帮我找出来。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 34.956
+        },
+        {
+          "text": "换手机后的前六天的步数不同颜色分别说明了什么？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 35.699
+        },
+        {
+          "text": "那张换手机后的前六天的步数图，把缺失和零放在不同位置是何意？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.613
+        },
+        {
+          "text": "换手机后的前六天的步数怎么同时有位次和原始值？这两项怎么区分？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 35.228
+        },
+        {
+          "text": "午饭后要在柜台值班。想在换手机后的前六天调整步数，给个能做到的第一步。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 35.954
+        },
+        {
+          "text": "看了换手机后的前六天的步数曲线，接下来该怎么安排更易坚持？",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.356
+        },
+        {
+          "text": "换手机后的前六天的步数习惯太难保持，帮我想个更轻便的做法。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.904
+        },
+        {
+          "text": "我之前承诺步数做到6800步，换手机后的前六天兑现了几成？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.181
+        },
+        {
+          "text": "以前存的那条步数要求，算上换手机后的前六天这次完成得如何？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.04
+        },
+        {
+          "text": "请用换手机后的前六天的步数给已登记的6800步门槛做个合格率。",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 36.906
+        },
+        {
+          "text": "换手机后的前六天的步数照旧放着，今天没想问什么。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.464
+        },
+        {
+          "text": "我在和同事提到换手机后的前六天的步数，这个不用你接手。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.071
+        },
+        {
+          "text": "请把步数的每日目标更新成6800步。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 36.979
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我导入了换手机后的前六天和换手机前的六天的步数。",
+              "要我把两个时段的位次汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 38.296
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "换手机后的前六天的步数报告出来了，有一列位次。",
+              "需要我讲讲位次和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 37.634
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。午饭后要在柜台值班。",
+              "要我按你的情况给一套换手机后的前六天可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.368
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我已经保存了每日步数6800步的目标。",
+              "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.594
+        },
+        {
+          "text": "这一项我这会儿用不着",
+          "recent": [
+            [
+              "我导入了换手机后的前六天和换手机前的六天的步数。",
+              "要我把两个时段的位次汇总并比较吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.128
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我导入了换手机后的前六天和换手机前的六天的步数。",
+              "要我把两个时段的位次汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 38.148
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "换手机后的前六天的步数报告出来了，有一列位次。",
+              "需要我讲讲位次和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 36.804
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。午饭后要在柜台值班。",
+              "要我按你的情况给一套换手机后的前六天可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 35.044
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我已经保存了每日步数6800步的目标。",
+              "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.039
+        },
+        {
+          "text": "等我明确了再开这个任务",
+          "recent": [
+            [
+              "换手机后的前六天的步数报告出来了，有一列位次。",
+              "需要我讲讲位次和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.161
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我导入了换手机后的前六天和换手机前的六天的步数。",
+              "要我把两个时段的位次汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 35.769
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "换手机后的前六天的步数报告出来了，有一列位次。",
+              "需要我讲讲位次和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.078
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。午饭后要在柜台值班。",
+              "要我按你的情况给一套换手机后的前六天可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.967
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我已经保存了每日步数6800步的目标。",
+              "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 35.849
+        },
+        {
+          "text": "先把你那条建议收回",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。午饭后要在柜台值班。",
+              "要我按你的情况给一套换手机后的前六天可做的安排吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.971
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我导入了换手机后的前六天和换手机前的六天的步数。",
+              "要我把两个时段的位次汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.886
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "换手机后的前六天的步数报告出来了，有一列位次。",
+              "需要我讲讲位次和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.509
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。午饭后要在柜台值班。",
+              "要我按你的情况给一套换手机后的前六天可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.436
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我已经保存了每日步数6800步的目标。",
+              "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 35.357
+        },
+        {
+          "text": "我刚完成了，直接过吧",
+          "recent": [
+            [
+              "我已经保存了每日步数6800步的目标。",
+              "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.792
+        },
+        {
+          "text": "步数在这次驻场期间这段按记录日摊下来是多少？",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.115
+        },
+        {
+          "text": "想知道这次驻场期间的步数有没有比上一轮驻场高。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.001
+        },
+        {
+          "text": "这次驻场期间的步数哪一条最低，麻烦帮我找出来。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.264
+        },
+        {
+          "text": "这次驻场期间的步数不同颜色分别说明了什么？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.226
+        },
+        {
+          "text": "那张这次驻场期间的步数图，把缺失和零放在不同位置是何意？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.403
+        },
+        {
+          "text": "这次驻场期间的步数怎么同时有日平均和原始值？这两项怎么区分？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 38.814
+        },
+        {
+          "text": "这周只能在家里走动。想在这次驻场期间调整步数，给个能做到的第一步。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.447
+        },
+        {
+          "text": "看了这次驻场期间的步数曲线，接下来该怎么安排更易坚持？",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.615
+        },
+        {
+          "text": "这次驻场期间的步数习惯太难保持，帮我想个更轻便的做法。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.693
+        },
+        {
+          "text": "我之前承诺步数做到10200步，这次驻场期间兑现了几成？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.602
+        },
+        {
+          "text": "以前存的那条步数要求，算上这次驻场期间这次完成得如何？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.299
+        },
+        {
+          "text": "请用这次驻场期间的步数给已登记的10200步门槛做个合格率。",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 35.965
+        },
+        {
+          "text": "这次驻场期间的步数照旧放着，今天没想问什么。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.302
+        },
+        {
+          "text": "我在和同事提到这次驻场期间的步数，这个不用你接手。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.73
+        },
+        {
+          "text": "请把步数的每日目标更新成10200步。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 36.528
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我导入了这次驻场期间和上一轮驻场的步数。",
+              "要我把两个时段的日平均汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.061
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "这次驻场期间的步数报告出来了，有一列日平均。",
+              "需要我讲讲日平均和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 36.686
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。这周只能在家里走动。",
+              "要我按你的情况给一套这次驻场期间可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 35.126
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我已经保存了每日步数10200步的目标。",
+              "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.495
+        },
+        {
+          "text": "这一项我这会儿用不着",
+          "recent": [
+            [
+              "这次驻场期间的步数报告出来了，有一列日平均。",
+              "需要我讲讲日平均和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.582
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我导入了这次驻场期间和上一轮驻场的步数。",
+              "要我把两个时段的日平均汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 34.897
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "这次驻场期间的步数报告出来了，有一列日平均。",
+              "需要我讲讲日平均和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 36.13
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。这周只能在家里走动。",
+              "要我按你的情况给一套这次驻场期间可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.344
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我已经保存了每日步数10200步的目标。",
+              "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 35.358
+        },
+        {
+          "text": "等我明确了再开这个任务",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。这周只能在家里走动。",
+              "要我按你的情况给一套这次驻场期间可做的安排吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.177
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我导入了这次驻场期间和上一轮驻场的步数。",
+              "要我把两个时段的日平均汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 34.998
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "这次驻场期间的步数报告出来了，有一列日平均。",
+              "需要我讲讲日平均和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 35.055
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。这周只能在家里走动。",
+              "要我按你的情况给一套这次驻场期间可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.086
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我已经保存了每日步数10200步的目标。",
+              "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.868
+        },
+        {
+          "text": "先把你那条建议收回",
+          "recent": [
+            [
+              "我已经保存了每日步数10200步的目标。",
+              "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.314
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我导入了这次驻场期间和上一轮驻场的步数。",
+              "要我把两个时段的日平均汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.692
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "这次驻场期间的步数报告出来了，有一列日平均。",
+              "需要我讲讲日平均和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 34.708
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我在想怎么让步数更有规律。这周只能在家里走动。",
+              "要我按你的情况给一套这次驻场期间可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 35.062
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我已经保存了每日步数10200步的目标。",
+              "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.819
+        },
+        {
+          "text": "我刚完成了，直接过吧",
+          "recent": [
+            [
+              "我导入了这次驻场期间和上一轮驻场的步数。",
+              "要我把两个时段的日平均汇总并比较吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.003
+        },
+        {
+          "text": "睡眠时长在家人来住的五晚这段按记录日摊下来是多少？",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 35.06
+        },
+        {
+          "text": "想知道家人来住的五晚的睡眠时长有没有比来之前五晚高。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.882
+        },
+        {
+          "text": "家人来住的五晚的睡眠时长哪一条最低，麻烦帮我找出来。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.04
+        },
+        {
+          "text": "家人来住的五晚的睡眠时长不同颜色分别说明了什么？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 35.45
+        },
+        {
+          "text": "那张家人来住的五晚的睡眠时长图，把缺失和零放在不同位置是何意？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.217
+        },
+        {
+          "text": "家人来住的五晚的睡眠时长怎么同时有分布区间和原始值？这两项怎么区分？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.926
+        },
+        {
+          "text": "需要把准备工作缩短到十分钟。想在家人来住的五晚调整睡眠时长，给个能做到的第一步。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.595
+        },
+        {
+          "text": "看了家人来住的五晚的睡眠时长曲线，接下来该怎么安排更易坚持？",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 35.12
+        },
+        {
+          "text": "家人来住的五晚的睡眠时长习惯太难保持，帮我想个更轻便的做法。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 34.882
+        },
+        {
+          "text": "我之前承诺睡眠时长做到6.8小时，家人来住的五晚兑现了几成？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.199
+        },
+        {
+          "text": "以前存的那条睡眠时长要求，算上家人来住的五晚这次完成得如何？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 35.024
+        },
+        {
+          "text": "请用家人来住的五晚的睡眠时长给已登记的6.8小时门槛做个合格率。",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 35.035
+        },
+        {
+          "text": "家人来住的五晚的睡眠时长照旧放着，今天没想问什么。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.366
+        },
+        {
+          "text": "我在和同事提到家人来住的五晚的睡眠时长，这个不用你接手。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.135
+        },
+        {
+          "text": "请把睡眠时长的每日目标更新成6.8小时。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "review_goal",
+          "ms": 35.467
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我导入了家人来住的五晚和来之前五晚的睡眠时长。",
+              "要我把两个时段的分布区间汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.971
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "家人来住的五晚的睡眠时长报告出来了，有一列分布区间。",
+              "需要我讲讲分布区间和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.576
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。",
+              "要我按你的情况给一套家人来住的五晚可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 35.751
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长6.8小时的目标。",
+              "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.504
+        },
+        {
+          "text": "这一项我这会儿用不着",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。",
+              "要我按你的情况给一套家人来住的五晚可做的安排吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.493
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我导入了家人来住的五晚和来之前五晚的睡眠时长。",
+              "要我把两个时段的分布区间汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.505
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "家人来住的五晚的睡眠时长报告出来了，有一列分布区间。",
+              "需要我讲讲分布区间和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "unknown",
+          "ms": 36.242
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。",
+              "要我按你的情况给一套家人来住的五晚可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.676
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长6.8小时的目标。",
+              "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.448
+        },
+        {
+          "text": "等我明确了再开这个任务",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长6.8小时的目标。",
+              "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.437
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我导入了家人来住的五晚和来之前五晚的睡眠时长。",
+              "要我把两个时段的分布区间汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.918
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "家人来住的五晚的睡眠时长报告出来了，有一列分布区间。",
+              "需要我讲讲分布区间和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.918
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。",
+              "要我按你的情况给一套家人来住的五晚可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.358
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长6.8小时的目标。",
+              "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.396
+        },
+        {
+          "text": "先把你那条建议收回",
+          "recent": [
+            [
+              "我导入了家人来住的五晚和来之前五晚的睡眠时长。",
+              "要我把两个时段的分布区间汇总并比较吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.867
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我导入了家人来住的五晚和来之前五晚的睡眠时长。",
+              "要我把两个时段的分布区间汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.58
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "家人来住的五晚的睡眠时长报告出来了，有一列分布区间。",
+              "需要我讲讲分布区间和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 35.18
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。",
+              "要我按你的情况给一套家人来住的五晚可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.985
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长6.8小时的目标。",
+              "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.156
+        },
+        {
+          "text": "我刚完成了，直接过吧",
+          "recent": [
+            [
+              "家人来住的五晚的睡眠时长报告出来了，有一列分布区间。",
+              "需要我讲讲分布区间和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.761
+        },
+        {
+          "text": "睡眠时长在调休那一周这段按记录日摊下来是多少？",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.787
+        },
+        {
+          "text": "想知道调休那一周的睡眠时长有没有比再前面那周高。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.809
+        },
+        {
+          "text": "调休那一周的睡眠时长哪一条最低，麻烦帮我找出来。",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.699
+        },
+        {
+          "text": "调休那一周的睡眠时长不同颜色分别说明了什么？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.564
+        },
+        {
+          "text": "那张调休那一周的睡眠时长图，把缺失和零放在不同位置是何意？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.542
+        },
+        {
+          "text": "调休那一周的睡眠时长怎么同时有有效天数和原始值？这两项怎么区分？",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.688
+        },
+        {
+          "text": "周末想把作息过渡平稳一点。想在调休那一周调整睡眠时长，给个能做到的第一步。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 35.318
+        },
+        {
+          "text": "看了调休那一周的睡眠时长曲线，接下来该怎么安排更易坚持？",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.901
+        },
+        {
+          "text": "调休那一周的睡眠时长习惯太难保持，帮我想个更轻便的做法。",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.48
+        },
+        {
+          "text": "我之前承诺睡眠时长做到8.1小时，调休那一周兑现了几成？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 35.53
+        },
+        {
+          "text": "以前存的那条睡眠时长要求，算上调休那一周这次完成得如何？",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.822
+        },
+        {
+          "text": "请用调休那一周的睡眠时长给已登记的8.1小时门槛做个合格率。",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 37.307
+        },
+        {
+          "text": "调休那一周的睡眠时长照旧放着，今天没想问什么。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.497
+        },
+        {
+          "text": "我在和同事提到调休那一周的睡眠时长，这个不用你接手。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 36.535
+        },
+        {
+          "text": "请把睡眠时长的每日目标更新成8.1小时。",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "review_goal",
+          "ms": 36.571
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我导入了调休那一周和再前面那周的睡眠时长。",
+              "要我把两个时段的有效天数汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.132
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "调休那一周的睡眠时长报告出来了，有一列有效天数。",
+              "需要我讲讲有效天数和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.043
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。",
+              "要我按你的情况给一套调休那一周可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.083
+        },
+        {
+          "text": "刚刚问到的那件，可以做了",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长8.1小时的目标。",
+              "要用调休那一周新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.124
+        },
+        {
+          "text": "这一项我这会儿用不着",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长8.1小时的目标。",
+              "要用调休那一周新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.063
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我导入了调休那一周和再前面那周的睡眠时长。",
+              "要我把两个时段的有效天数汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 35.214
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "调休那一周的睡眠时长报告出来了，有一列有效天数。",
+              "需要我讲讲有效天数和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 37.102
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。",
+              "要我按你的情况给一套调休那一周可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.257
+        },
+        {
+          "text": "没有别的了，照那个办",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长8.1小时的目标。",
+              "要用调休那一周新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 35.344
+        },
+        {
+          "text": "等我明确了再开这个任务",
+          "recent": [
+            [
+              "我导入了调休那一周和再前面那周的睡眠时长。",
+              "要我把两个时段的有效天数汇总并比较吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 35.623
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我导入了调休那一周和再前面那周的睡眠时长。",
+              "要我把两个时段的有效天数汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 36.729
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "调休那一周的睡眠时长报告出来了，有一列有效天数。",
+              "需要我讲讲有效天数和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 36.306
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。",
+              "要我按你的情况给一套调休那一周可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 36.27
+        },
+        {
+          "text": "你说的这项我现在就需要",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长8.1小时的目标。",
+              "要用调休那一周新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 36.811
+        },
+        {
+          "text": "先把你那条建议收回",
+          "recent": [
+            [
+              "调休那一周的睡眠时长报告出来了，有一列有效天数。",
+              "需要我讲讲有效天数和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.169
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我导入了调休那一周和再前面那周的睡眠时长。",
+              "要我把两个时段的有效天数汇总并比较吗？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 37.29
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "调休那一周的睡眠时长报告出来了，有一列有效天数。",
+              "需要我讲讲有效天数和报告里的缺测口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 37.096
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。",
+              "要我按你的情况给一套调休那一周可做的安排吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 37.479
+        },
+        {
+          "text": "对，按前面那条就可以",
+          "recent": [
+            [
+              "我已经保存了每日睡眠时长8.1小时的目标。",
+              "要用调休那一周新上传的数据检查这个目标的完成情况吗？"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 37.015
+        },
+        {
+          "text": "我刚完成了，直接过吧",
+          "recent": [
+            [
+              "我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。",
+              "要我按你的情况给一套调休那一周可做的安排吗？"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 37.226
+        }
+      ]
+    }
+  },
+  "routing": {
+    "correct": 22,
+    "total": 24,
+    "fallback_cases": 10,
+    "fallback_correct": 8,
+    "unexpected_actions": 1,
+    "median_ms": 0.6,
+    "p95_ms": 37.9,
+    "predictions": [
+      {
+        "text": "昨天走了多少步",
+        "expected": [
+          "analyze"
+        ],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 0,
+        "ms": 0.578
+      },
+      {
+        "text": "对比上周和上上周的睡眠时长",
+        "expected": [
+          "analyze"
+        ],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 0,
+        "ms": 0.319
+      },
+      {
+        "text": "解释步数缺测日怎么处理",
+        "expected": [
+          "explain"
+        ],
+        "predicted": [
+          "explain"
+        ],
+        "calls": 0,
+        "ms": 0.537
+      },
+      {
+        "text": "根据本周睡眠记录，给我制定一个改善计划",
+        "expected": [
+          "plan"
+        ],
+        "predicted": [
+          "plan"
+        ],
+        "calls": 0,
+        "ms": 0.341
+      },
+      {
+        "text": "复盘本周的步数目标",
+        "expected": [
+          "review_goal"
+        ],
+        "predicted": [
+          "review_goal"
+        ],
+        "calls": 0,
+        "ms": 0.287
+      },
+      {
+        "text": "把我的每日步数目标设置为 9000 步",
+        "expected": [
+          "set_goal"
+        ],
+        "predicted": [
+          "set_goal"
+        ],
+        "calls": 0,
+        "ms": 0.916
+      },
+      {
+        "text": "比较两周的睡眠时长，另外复盘步数目标",
+        "expected": [
+          "analyze",
+          "review_goal"
+        ],
+        "predicted": [
+          "analyze",
+          "review_goal"
+        ],
+        "calls": 0,
+        "ms": 0.347
+      },
+      {
+        "text": "只比较本周和上周的睡眠时长，别解释",
+        "expected": [
+          "analyze"
+        ],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 0,
+        "ms": 0.413
+      },
+      {
+        "text": "不用看步数，只查上周睡眠",
+        "expected": [
+          "analyze"
+        ],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 0,
+        "ms": 0.319
+      },
+      {
+        "text": "如果上周步数没达标，再把步数目标改成每天8000步",
+        "expected": [],
+        "predicted": [],
+        "calls": 0,
+        "ms": 0.355
+      },
+      {
+        "text": "我已经查过了上周睡眠数据",
+        "expected": [],
+        "predicted": [],
+        "calls": 0,
+        "ms": 0.298
+      },
+      {
+        "text": "下周再设定睡眠目标到8小时",
+        "expected": [],
+        "predicted": [],
+        "calls": 0,
+        "ms": 0.299
+      },
+      {
+        "text": "可以把睡眠目标设置为每天9小时吗",
+        "expected": [],
+        "predicted": [],
+        "calls": 0,
+        "ms": 0.319
+      },
+      {
+        "text": "给我用药来改善睡眠",
+        "expected": [],
+        "predicted": [],
+        "calls": 0,
+        "ms": 0.262
+      },
+      {
+        "text": "我想和你说睡眠的事",
+        "expected": [],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 1,
+        "ms": 37.682
+      },
+      {
+        "text": "报告里那一小截呢",
+        "expected": [
+          "analyze"
+        ],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 1,
+        "ms": 37.323
+      },
+      {
+        "text": "给个能塞进午饭后的招",
+        "expected": [
+          "plan"
+        ],
+        "predicted": [
+          "plan"
+        ],
+        "calls": 1,
+        "ms": 37.666
+      },
+      {
+        "text": "这比原定标准还差几成",
+        "expected": [
+          "review_goal"
+        ],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 1,
+        "ms": 38.068
+      },
+      {
+        "text": "那段区间是什么含义",
+        "expected": [
+          "explain"
+        ],
+        "predicted": [
+          "explain"
+        ],
+        "calls": 1,
+        "ms": 37.262
+      },
+      {
+        "text": "按工作日合计一下",
+        "expected": [
+          "analyze"
+        ],
+        "predicted": [
+          "analyze"
+        ],
+        "calls": 1,
+        "ms": 37.928
+      },
+      {
+        "text": "之前那组先搁置",
+        "expected": [],
+        "predicted": [],
+        "calls": 1,
+        "ms": 37.335
+      },
+      {
+        "text": "我现在就想拿点能在室内做的办法",
+        "expected": [
+          "plan"
+        ],
+        "predicted": [
+          "plan"
+        ],
+        "calls": 1,
+        "ms": 37.217
+      },
+      {
+        "text": "这几个数字的含义呢",
+        "expected": [
+          "explain"
+        ],
+        "predicted": [
+          "explain"
+        ],
+        "calls": 1,
+        "ms": 37.472
+      },
+      {
+        "text": "这已经弄完咯",
+        "expected": [],
+        "predicted": [],
+        "calls": 1,
+        "ms": 37.366
+      }
+    ]
+  },
+  "validation": {
+    "correct": 122,
+    "total": 160,
+    "macro_f1": 0.7565,
+    "invalid": 0,
+    "by_label": {
+      "analyze": {
+        "support": 32,
+        "correct": 32,
+        "f1": 0.7191
+      },
+      "explain": {
+        "support": 32,
+        "correct": 24,
+        "f1": 0.8421
+      },
+      "plan": {
+        "support": 32,
+        "correct": 32,
+        "f1": 0.9412
+      },
+      "review_goal": {
+        "support": 32,
+        "correct": 19,
+        "f1": 0.6552
+      },
+      "unknown": {
+        "support": 32,
+        "correct": 15,
+        "f1": 0.625
+      }
+    },
+    "median_ms": 36.5,
+    "p95_ms": 37.4,
+    "predictions": [
+      {
+        "text": "最近八个自然日的步数合起来有多少？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.988
+      },
+      {
+        "text": "统计一下最近八个自然日的步数有几天能用。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.945
+      },
+      {
+        "text": "把最近八个自然日的步数做成逐日清单。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.306
+      },
+      {
+        "text": "最近八个自然日和再之前八天的步数哪组更大？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.944
+      },
+      {
+        "text": "最近八个自然日的步数这一项为何叫跨度？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 37.3
+      },
+      {
+        "text": "缺了记录怎么看最近八个自然日的步数对照图？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "analyze",
+        "ms": 37.534
+      },
+      {
+        "text": "最近八个自然日的步数有分组权重，这个概念怎么理解？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 38.916
+      },
+      {
+        "text": "最近八个自然日的步数两种单位可以怎样换算？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 37.71
+      },
+      {
+        "text": "想把走动安排在弹性的时段。我想调整步数，给一个最近八个自然日能用的新办法。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 37.36
+      },
+      {
+        "text": "最近八个自然日该怎么帮助自己保持步数的习惯？",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.907
+      },
+      {
+        "text": "用最近八个自然日的步数记录做一份下阶段行动建议。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.66
+      },
+      {
+        "text": "把步数的安排改得轻松一点，想把走动安排在弹性的时段。先试最近八个自然日。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 37.435
+      },
+      {
+        "text": "最近八个自然日已有步数，按登记的8400步做一次回顾。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.435
+      },
+      {
+        "text": "最近八个自然日的步数距离已保存的门槛有多远？",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.413
+      },
+      {
+        "text": "对着原标准8400步看看最近八个自然日的步数达到几回。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 37.201
+      },
+      {
+        "text": "我先前设了步数8400步，用最近八个自然日验一验这个约定。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.537
+      },
+      {
+        "text": "最近八个自然日的步数下个月有需要再处理。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "review_goal",
+        "ms": 36.785
+      },
+      {
+        "text": "最近八个自然日的步数就算了，留给我自己核算。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 37.225
+      },
+      {
+        "text": "用8400步覆盖之前保存的步数目标。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "plan",
+        "ms": 37.151
+      },
+      {
+        "text": "说起最近八个自然日的步数，我其实在等软件导出链接。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 36.698
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我导入了最近八个自然日和再之前八天的步数。",
+            "要我把两个时段的跨度汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 37.382
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "最近八个自然日的步数报告出来了，有一列跨度。",
+            "需要我讲讲跨度和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "review_goal",
+        "ms": 36.969
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。想把走动安排在弹性的时段。",
+            "要我按你的情况给一套最近八个自然日可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.902
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我已经保存了每日步数8400步的目标。",
+            "要用最近八个自然日新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.905
+      },
+      {
+        "text": "不用按刚才那个了",
+        "recent": [
+          [
+            "我导入了最近八个自然日和再之前八天的步数。",
+            "要我把两个时段的跨度汇总并比较吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 37.174
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我导入了最近八个自然日和再之前八天的步数。",
+            "要我把两个时段的跨度汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.952
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "最近八个自然日的步数报告出来了，有一列跨度。",
+            "需要我讲讲跨度和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "unknown",
+        "ms": 37.207
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。想把走动安排在弹性的时段。",
+            "要我按你的情况给一套最近八个自然日可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 37.115
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我已经保存了每日步数8400步的目标。",
+            "要用最近八个自然日新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 37.074
+      },
+      {
+        "text": "下一次才做这项",
+        "recent": [
+          [
+            "最近八个自然日的步数报告出来了，有一列跨度。",
+            "需要我讲讲跨度和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 37.148
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我导入了最近八个自然日和再之前八天的步数。",
+            "要我把两个时段的跨度汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.912
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "最近八个自然日的步数报告出来了，有一列跨度。",
+            "需要我讲讲跨度和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 37.069
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。想把走动安排在弹性的时段。",
+            "要我按你的情况给一套最近八个自然日可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 35.883
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我已经保存了每日步数8400步的目标。",
+            "要用最近八个自然日新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.357
+      },
+      {
+        "text": "之前已经搞定",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。想把走动安排在弹性的时段。",
+            "要我按你的情况给一套最近八个自然日可做的安排吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 37.573
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我导入了最近八个自然日和再之前八天的步数。",
+            "要我把两个时段的跨度汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.922
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "最近八个自然日的步数报告出来了，有一列跨度。",
+            "需要我讲讲跨度和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.838
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。想把走动安排在弹性的时段。",
+            "要我按你的情况给一套最近八个自然日可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.825
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我已经保存了每日步数8400步的目标。",
+            "要用最近八个自然日新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.619
+      },
+      {
+        "text": "这会先别动那一块",
+        "recent": [
+          [
+            "我已经保存了每日步数8400步的目标。",
+            "要用最近八个自然日新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.233
+      },
+      {
+        "text": "节后前五天的步数合起来有多少？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.779
+      },
+      {
+        "text": "统计一下节后前五天的步数有几天能用。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.498
+      },
+      {
+        "text": "把节后前五天的步数做成逐日清单。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.225
+      },
+      {
+        "text": "节后前五天和节前最后五天的步数哪组更大？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.428
+      },
+      {
+        "text": "节后前五天的步数这一项为何叫分位数？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.527
+      },
+      {
+        "text": "缺了记录怎么看节后前五天的步数对照图？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "analyze",
+        "ms": 35.434
+      },
+      {
+        "text": "节后前五天的步数有分组权重，这个概念怎么理解？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 37.192
+      },
+      {
+        "text": "节后前五天的步数两种单位可以怎样换算？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.747
+      },
+      {
+        "text": "只能在公司楼里活动。我想调整步数，给一个节后前五天能用的新办法。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.639
+      },
+      {
+        "text": "节后前五天该怎么帮助自己保持步数的习惯？",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.957
+      },
+      {
+        "text": "用节后前五天的步数记录做一份下阶段行动建议。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.771
+      },
+      {
+        "text": "把步数的安排改得轻松一点，只能在公司楼里活动。先试节后前五天。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.948
+      },
+      {
+        "text": "节后前五天已有步数，按登记的5800步做一次回顾。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.904
+      },
+      {
+        "text": "节后前五天的步数距离已保存的门槛有多远？",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.906
+      },
+      {
+        "text": "对着原标准5800步看看节后前五天的步数达到几回。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.883
+      },
+      {
+        "text": "我先前设了步数5800步，用节后前五天验一验这个约定。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 37.225
+      },
+      {
+        "text": "节后前五天的步数下个月有需要再处理。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.957
+      },
+      {
+        "text": "节后前五天的步数就算了，留给我自己核算。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 36.617
+      },
+      {
+        "text": "用5800步覆盖之前保存的步数目标。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "plan",
+        "ms": 36.699
+      },
+      {
+        "text": "说起节后前五天的步数，我其实在等软件导出链接。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 36.656
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我导入了节后前五天和节前最后五天的步数。",
+            "要我把两个时段的分位数汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 37.321
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "节后前五天的步数报告出来了，有一列分位数。",
+            "需要我讲讲分位数和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "review_goal",
+        "ms": 37.166
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。只能在公司楼里活动。",
+            "要我按你的情况给一套节后前五天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 37.122
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我已经保存了每日步数5800步的目标。",
+            "要用节后前五天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 37.308
+      },
+      {
+        "text": "不用按刚才那个了",
+        "recent": [
+          [
+            "节后前五天的步数报告出来了，有一列分位数。",
+            "需要我讲讲分位数和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 37.184
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我导入了节后前五天和节前最后五天的步数。",
+            "要我把两个时段的分位数汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 37.02
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "节后前五天的步数报告出来了，有一列分位数。",
+            "需要我讲讲分位数和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.171
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。只能在公司楼里活动。",
+            "要我按你的情况给一套节后前五天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 34.927
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我已经保存了每日步数5800步的目标。",
+            "要用节后前五天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 35.783
+      },
+      {
+        "text": "下一次才做这项",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。只能在公司楼里活动。",
+            "要我按你的情况给一套节后前五天可做的安排吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.864
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我导入了节后前五天和节前最后五天的步数。",
+            "要我把两个时段的分位数汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 37.39
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "节后前五天的步数报告出来了，有一列分位数。",
+            "需要我讲讲分位数和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.219
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。只能在公司楼里活动。",
+            "要我按你的情况给一套节后前五天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 35.261
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我已经保存了每日步数5800步的目标。",
+            "要用节后前五天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 35.699
+      },
+      {
+        "text": "之前已经搞定",
+        "recent": [
+          [
+            "我已经保存了每日步数5800步的目标。",
+            "要用节后前五天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "review_goal",
+        "ms": 35.268
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我导入了节后前五天和节前最后五天的步数。",
+            "要我把两个时段的分位数汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 35.254
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "节后前五天的步数报告出来了，有一列分位数。",
+            "需要我讲讲分位数和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.887
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我在想怎么让步数更有规律。只能在公司楼里活动。",
+            "要我按你的情况给一套节后前五天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.133
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我已经保存了每日步数5800步的目标。",
+            "要用节后前五天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.395
+      },
+      {
+        "text": "这会先别动那一块",
+        "recent": [
+          [
+            "我导入了节后前五天和节前最后五天的步数。",
+            "要我把两个时段的分位数汇总并比较吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.387
+      },
+      {
+        "text": "周会前两天的睡眠时长合起来有多少？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.47
+      },
+      {
+        "text": "统计一下周会前两天的睡眠时长有几天能用。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 35.412
+      },
+      {
+        "text": "把周会前两天的睡眠时长做成逐日清单。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.178
+      },
+      {
+        "text": "周会前两天和周会后两天的睡眠时长哪组更大？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.497
+      },
+      {
+        "text": "周会前两天的睡眠时长这一项为何叫累计值？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.919
+      },
+      {
+        "text": "缺了记录怎么看周会前两天的睡眠时长对照图？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "analyze",
+        "ms": 36.487
+      },
+      {
+        "text": "周会前两天的睡眠时长有分组权重，这个概念怎么理解？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.346
+      },
+      {
+        "text": "周会前两天的睡眠时长两种单位可以怎样换算？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.539
+      },
+      {
+        "text": "要留出晚上带家人看电影的时间。我想调整睡眠时长，给一个周会前两天能用的新办法。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.372
+      },
+      {
+        "text": "周会前两天该怎么帮助自己保持睡眠时长的习惯？",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 35.156
+      },
+      {
+        "text": "用周会前两天的睡眠时长记录做一份下阶段行动建议。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.257
+      },
+      {
+        "text": "把睡眠时长的安排改得轻松一点，要留出晚上带家人看电影的时间。先试周会前两天。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 37.252
+      },
+      {
+        "text": "周会前两天已有睡眠时长，按登记的7.8小时做一次回顾。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.444
+      },
+      {
+        "text": "周会前两天的睡眠时长距离已保存的门槛有多远？",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.859
+      },
+      {
+        "text": "对着原标准7.8小时看看周会前两天的睡眠时长达到几回。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.359
+      },
+      {
+        "text": "我先前设了睡眠时长7.8小时，用周会前两天验一验这个约定。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.106
+      },
+      {
+        "text": "周会前两天的睡眠时长下个月有需要再处理。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.304
+      },
+      {
+        "text": "周会前两天的睡眠时长就算了，留给我自己核算。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 36.345
+      },
+      {
+        "text": "用7.8小时覆盖之前保存的睡眠时长目标。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "plan",
+        "ms": 36.69
+      },
+      {
+        "text": "说起周会前两天的睡眠时长，我其实在等软件导出链接。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 35.616
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我导入了周会前两天和周会后两天的睡眠时长。",
+            "要我把两个时段的累计值汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 35.29
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "周会前两天的睡眠时长报告出来了，有一列累计值。",
+            "需要我讲讲累计值和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "review_goal",
+        "ms": 35.598
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。要留出晚上带家人看电影的时间。",
+            "要我按你的情况给一套周会前两天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.761
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长7.8小时的目标。",
+            "要用周会前两天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 37.042
+      },
+      {
+        "text": "不用按刚才那个了",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。要留出晚上带家人看电影的时间。",
+            "要我按你的情况给一套周会前两天可做的安排吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 35.814
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我导入了周会前两天和周会后两天的睡眠时长。",
+            "要我把两个时段的累计值汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.61
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "周会前两天的睡眠时长报告出来了，有一列累计值。",
+            "需要我讲讲累计值和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.18
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。要留出晚上带家人看电影的时间。",
+            "要我按你的情况给一套周会前两天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.252
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长7.8小时的目标。",
+            "要用周会前两天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.338
+      },
+      {
+        "text": "下一次才做这项",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长7.8小时的目标。",
+            "要用周会前两天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 35.972
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我导入了周会前两天和周会后两天的睡眠时长。",
+            "要我把两个时段的累计值汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.042
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "周会前两天的睡眠时长报告出来了，有一列累计值。",
+            "需要我讲讲累计值和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.676
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。要留出晚上带家人看电影的时间。",
+            "要我按你的情况给一套周会前两天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 35.311
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长7.8小时的目标。",
+            "要用周会前两天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.115
+      },
+      {
+        "text": "之前已经搞定",
+        "recent": [
+          [
+            "我导入了周会前两天和周会后两天的睡眠时长。",
+            "要我把两个时段的累计值汇总并比较吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "review_goal",
+        "ms": 37.288
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我导入了周会前两天和周会后两天的睡眠时长。",
+            "要我把两个时段的累计值汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.22
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "周会前两天的睡眠时长报告出来了，有一列累计值。",
+            "需要我讲讲累计值和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.926
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。要留出晚上带家人看电影的时间。",
+            "要我按你的情况给一套周会前两天可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.639
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长7.8小时的目标。",
+            "要用周会前两天新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 38.767
+      },
+      {
+        "text": "这会先别动那一块",
+        "recent": [
+          [
+            "周会前两天的睡眠时长报告出来了，有一列累计值。",
+            "需要我讲讲累计值和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 37.797
+      },
+      {
+        "text": "今年春节假期的睡眠时长合起来有多少？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 35.987
+      },
+      {
+        "text": "统计一下今年春节假期的睡眠时长有几天能用。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 37.139
+      },
+      {
+        "text": "把今年春节假期的睡眠时长做成逐日清单。",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.397
+      },
+      {
+        "text": "今年春节假期和去年同一段的睡眠时长哪组更大？",
+        "recent": [],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.233
+      },
+      {
+        "text": "今年春节假期的睡眠时长这一项为何叫均方差？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.335
+      },
+      {
+        "text": "缺了记录怎么看今年春节假期的睡眠时长对照图？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "analyze",
+        "ms": 36.24
+      },
+      {
+        "text": "今年春节假期的睡眠时长有分组权重，这个概念怎么理解？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.449
+      },
+      {
+        "text": "今年春节假期的睡眠时长两种单位可以怎样换算？",
+        "recent": [],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.343
+      },
+      {
+        "text": "平时会忘记给手表充电。我想调整睡眠时长，给一个今年春节假期能用的新办法。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.531
+      },
+      {
+        "text": "今年春节假期该怎么帮助自己保持睡眠时长的习惯？",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.17
+      },
+      {
+        "text": "用今年春节假期的睡眠时长记录做一份下阶段行动建议。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 37.007
+      },
+      {
+        "text": "把睡眠时长的安排改得轻松一点，平时会忘记给手表充电。先试今年春节假期。",
+        "recent": [],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.26
+      },
+      {
+        "text": "今年春节假期已有睡眠时长，按登记的8.4小时做一次回顾。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 35.694
+      },
+      {
+        "text": "今年春节假期的睡眠时长距离已保存的门槛有多远？",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 36.678
+      },
+      {
+        "text": "对着原标准8.4小时看看今年春节假期的睡眠时长达到几回。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "analyze",
+        "ms": 37.553
+      },
+      {
+        "text": "我先前设了睡眠时长8.4小时，用今年春节假期验一验这个约定。",
+        "recent": [],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.422
+      },
+      {
+        "text": "今年春节假期的睡眠时长下个月有需要再处理。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "review_goal",
+        "ms": 35.839
+      },
+      {
+        "text": "今年春节假期的睡眠时长就算了，留给我自己核算。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 36.188
+      },
+      {
+        "text": "用8.4小时覆盖之前保存的睡眠时长目标。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "plan",
+        "ms": 36.262
+      },
+      {
+        "text": "说起今年春节假期的睡眠时长，我其实在等软件导出链接。",
+        "recent": [],
+        "expected": "unknown",
+        "predicted": "analyze",
+        "ms": 36.334
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我导入了今年春节假期和去年同一段的睡眠时长。",
+            "要我把两个时段的均方差汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.326
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "今年春节假期的睡眠时长报告出来了，有一列均方差。",
+            "需要我讲讲均方差和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 36.3
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。平时会忘记给手表充电。",
+            "要我按你的情况给一套今年春节假期可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.355
+      },
+      {
+        "text": "好的，请接着刚才提议的做",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长8.4小时的目标。",
+            "要用今年春节假期新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 35.353
+      },
+      {
+        "text": "不用按刚才那个了",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长8.4小时的目标。",
+            "要用今年春节假期新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.352
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我导入了今年春节假期和去年同一段的睡眠时长。",
+            "要我把两个时段的均方差汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.492
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "今年春节假期的睡眠时长报告出来了，有一列均方差。",
+            "需要我讲讲均方差和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.018
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。平时会忘记给手表充电。",
+            "要我按你的情况给一套今年春节假期可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.338
+      },
+      {
+        "text": "我确认就处理那件",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长8.4小时的目标。",
+            "要用今年春节假期新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.658
+      },
+      {
+        "text": "下一次才做这项",
+        "recent": [
+          [
+            "我导入了今年春节假期和去年同一段的睡眠时长。",
+            "要我把两个时段的均方差汇总并比较吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.747
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我导入了今年春节假期和去年同一段的睡眠时长。",
+            "要我把两个时段的均方差汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 38.657
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "今年春节假期的睡眠时长报告出来了，有一列均方差。",
+            "需要我讲讲均方差和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.042
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。平时会忘记给手表充电。",
+            "要我按你的情况给一套今年春节假期可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 35.563
+      },
+      {
+        "text": "那我想先要这部分",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长8.4小时的目标。",
+            "要用今年春节假期新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.28
+      },
+      {
+        "text": "之前已经搞定",
+        "recent": [
+          [
+            "今年春节假期的睡眠时长报告出来了，有一列均方差。",
+            "需要我讲讲均方差和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "explain",
+        "ms": 34.807
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我导入了今年春节假期和去年同一段的睡眠时长。",
+            "要我把两个时段的均方差汇总并比较吗？"
+          ]
+        ],
+        "expected": "analyze",
+        "predicted": "analyze",
+        "ms": 36.166
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "今年春节假期的睡眠时长报告出来了，有一列均方差。",
+            "需要我讲讲均方差和报告里的缺测口径吗？"
+          ]
+        ],
+        "expected": "explain",
+        "predicted": "explain",
+        "ms": 35.829
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。平时会忘记给手表充电。",
+            "要我按你的情况给一套今年春节假期可做的安排吗？"
+          ]
+        ],
+        "expected": "plan",
+        "predicted": "plan",
+        "ms": 36.487
+      },
+      {
+        "text": "嗯，上一句那个帮我弄一下",
+        "recent": [
+          [
+            "我已经保存了每日睡眠时长8.4小时的目标。",
+            "要用今年春节假期新上传的数据检查这个目标的完成情况吗？"
+          ]
+        ],
+        "expected": "review_goal",
+        "predicted": "review_goal",
+        "ms": 36.238
+      },
+      {
+        "text": "这会先别动那一块",
+        "recent": [
+          [
+            "我在想怎么让睡眠时长更有规律。平时会忘记给手表充电。",
+            "要我按你的情况给一套今年春节假期可做的安排吗？"
+          ]
+        ],
+        "expected": "unknown",
+        "predicted": "unknown",
+        "ms": 36.216
+      }
+    ]
+  }
+}

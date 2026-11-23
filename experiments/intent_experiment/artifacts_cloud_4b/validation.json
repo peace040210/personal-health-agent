@@ -1,0 +1,74 @@
+[
+  {
+    "epoch": 1,
+    "correct": 144,
+    "total": 160,
+    "macro_f1": 0.9008,
+    "invalid": 0,
+    "by_label": {
+      "analyze": {
+        "support": 32,
+        "correct": 32,
+        "f1": 0.8889
+      },
+      "explain": {
+        "support": 32,
+        "correct": 27,
+        "f1": 0.9153
+      },
+      "plan": {
+        "support": 32,
+        "correct": 29,
+        "f1": 0.9206
+      },
+      "review_goal": {
+        "support": 32,
+        "correct": 26,
+        "f1": 0.8966
+      },
+      "unknown": {
+        "support": 32,
+        "correct": 30,
+        "f1": 0.8824
+      }
+    },
+    "median_ms": 41.0,
+    "p95_ms": 42.7
+  },
+  {
+    "epoch": 2,
+    "correct": 143,
+    "total": 160,
+    "macro_f1": 0.8943,
+    "invalid": 0,
+    "by_label": {
+      "analyze": {
+        "support": 32,
+        "correct": 32,
+        "f1": 0.8889
+      },
+      "explain": {
+        "support": 32,
+        "correct": 27,
+        "f1": 0.9153
+      },
+      "plan": {
+        "support": 32,
+        "correct": 29,
+        "f1": 0.9206
+      },
+      "review_goal": {
+        "support": 32,
+        "correct": 25,
+        "f1": 0.8772
+      },
+      "unknown": {
+        "support": 32,
+        "correct": 30,
+        "f1": 0.8696
+      }
+    },
+    "median_ms": 40.0,
+    "p95_ms": 41.5
+  }
+]

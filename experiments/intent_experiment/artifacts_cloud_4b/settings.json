@@ -1,0 +1,58 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "precision": "bfloat16",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "datasets": {
+    "train": {
+      "rows": 1515,
+      "dialogues": 730,
+      "families": 147,
+      "labels": {
+        "analyze": 304,
+        "explain": 303,
+        "plan": 303,
+        "review_goal": 302,
+        "unknown": 303
+      },
+      "sha256": "ee1bc93dcf8e9255b4980ac42036663fd0f59a3b02fec5afad63885ed57fa6f2"
+    },
+    "valid": {
+      "rows": 160,
+      "dialogues": 80,
+      "families": 24,
+      "labels": {
+        "analyze": 32,
+        "explain": 32,
+        "plan": 32,
+        "review_goal": 32,
+        "unknown": 32
+      },
+      "sha256": "84d7b291cb273ec93789852e3f942324a0811ac8a803278122384d273bc60909"
+    },
+    "test": {
+      "rows": 140,
+      "dialogues": 80,
+      "families": 19,
+      "labels": {
+        "analyze": 28,
+        "explain": 28,
+        "plan": 28,
+        "review_goal": 28,
+        "unknown": 28
+      },
+      "sha256": "64b28160f883f382d9189275de8e7973a2d33afcc282aaa8b9b27528dcd52095"
+    }
+  },
+  "seed": 1370,
+  "learning_rate": 0.0001,
+  "epochs": 2,
+  "batch_size": 4,
+  "gradient_accumulation": 2,
+  "objective": "cross entropy over five intent logits",
+  "system_prompt": "你是睡眠时长与步数助手的意图分类器。根据 text 判断本轮要执行的动作。recent 仅用于补全本轮省略的上下文，examples 是可能相关的参考。\nanalyze：查记录、汇总、比较数据或查看趋势。\nexplain：解释指标、统计口径或已有结果的含义。\nplan：给出改进行动或制定计划。\nreview_goal：按已有的目标核对进度或完成情况。\nunknown：当前无明确动作、否定、推迟、假设、要求写入目标，或超出睡眠时长与步数范围。\n只输出一个 JSON 对象，例如 {\"choice\":\"explain\"}。不要输出解释。",
+  "original_test_sha256": "60aa05989ae02f072cb1ff1454224d3ebf13db61e5d9b774856788b330f8af56",
+  "selected_epoch": 1,
+  "seconds": 130.4,
+  "peak_gpu_gb": 10.22,
+  "adapter_sha256": "5aca4e186a355db0ac1103a5aee7d64277256fecbad91f9f133a317d2e2714c9"
+}

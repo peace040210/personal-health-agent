@@ -1,0 +1,102 @@
+[
+  {
+    "id": "duration-index-gap", "split": "dev", "expect": "direct",
+    "questions": ["有没有论文比较每日步数和当晚总睡眠时长", "研究说走得多当天会睡得久一点吗", "查当天步数和随后一晚的睡眠时长", "按天记录的步数与夜间总睡眠时间有没有研究", "PubMed 查计步与随后当晚睡多久"],
+    "responses": {
+      "metrics": ["Daily steps and sleep duration", "We measured daily steps and total sleep time on the following night in community adults."],
+      "broader": ["Walking programme and sleep duration", "An 8-week intervention studied physical activity and sleep duration."]
+    }
+  },
+  {
+    "id": "n3-timing-language", "split": "dev", "expect": "direct",
+    "questions": ["查一下走得多的日子当晚深睡时长的研究", "有研究按天对比步数和当晚深度睡眠吗", "计步器测到的步数和那一晚的深睡有文献吗", "找步数和随后的深睡研究", "当天步数多会跟当晚的深睡有关吗，有论文吗"],
+    "responses": {
+      "strict": ["Physical activity and slow wave sleep", "Walking and slow wave sleep were measured in a 12-week intervention."],
+      "metrics": ["Pedometer counts and N3 sleep", "A pedometer recorded daily steps and a sleep lab assessed slow-wave sleep on the night following each observation."]
+    }
+  },
+  {
+    "id": "exact-duration-indexed", "split": "dev", "expect": "direct",
+    "questions": ["查当天的步数和当晚总睡眠时长", "有按日计步且测量当晚睡眠的文献吗", "晚上睡多久和当天步数有没有研究", "研究里有没有按日记录步数和随后的总睡眠时间", "有没有比较当晚睡眠时间与每日步数的论文"],
+    "responses": {
+      "strict": ["Same-night total sleep time and step counts", "Daily step counts were paired with same-night total sleep time for each participant."],
+      "metrics": ["Retrospective steps survey", "The survey compared daily steps and sleep duration without matching activity and sleep by date."]
+    }
+  },
+  {
+    "id": "wrong-sleep-outcome", "split": "dev", "expect": "context",
+    "questions": ["当日步数和当晚深睡有研究吗", "想找当天走多少与深睡时长的证据", "步数影响下一晚的深睡吗，查研究", "请核对当天步数和夜间深度睡眠时间的论文", "查按天计步的深睡时长研究"],
+    "responses": {
+      "strict": ["Same-night total sleep time", "Daily steps were paired with total sleep time on the same night."],
+      "metrics": ["Sleep stages after training", "Walking and deep sleep were assessed during a 6-week intervention."],
+      "broader": ["Physical activity and deep sleep", "Physical activity and deep sleep were compared in a long-term intervention."]
+    }
+  },
+  {
+    "id": "nonmatching-records", "split": "dev", "expect": "insufficient",
+    "questions": ["找每日步数和当晚睡眠总时长证据", "有步数和那晚睡多久的论文吗", "研究是否比较当天走路步数与当晚睡眠时长", "查每日走了几步和同一晚总睡眠", "关于白天步数和夜间睡眠时长有什么研究"],
+    "responses": {
+      "strict": ["Calibration of sleep sensors", "We measured agreement between two laboratory sleep instruments."],
+      "broader": ["Walking tests", "The walking trial measured only distance and heart rate."]
+    }
+  },
+  {
+    "id": "public-sleep-definition", "split": "dev", "joint": false, "expect": "context",
+    "questions": ["什么是总睡眠时间", "睡眠时长是什么意思", "总睡眠时间是什么", "怎么理解总睡眠时长", "请解释一下睡眠时长"],
+    "responses": {
+      "guidance": ["Measuring sleep duration", "Sleep duration is the amount of time a person is asleep during the measured period."]
+    }
+  },
+  {
+    "id": "duration-following-night", "split": "val", "expect": "direct",
+    "questions": ["找计步和当晚的睡眠总时长论文", "白天走路步数与随后的总睡眠时间有证据吗", "运动腕表的每日步数和那晚睡眠时长，查文献", "日内步数与入睡后总共睡多久，有研究吗", "查同一天步数对应的晚上睡多久的文献"],
+    "responses": {
+      "strict": ["Physical activity and duration", "Adults reported walking time and sleep duration in a survey."],
+      "metrics": ["Daily observations in shift workers", "We linked steps per day and sleep duration in the subsequent night using participant logs."],
+      "broader": ["Walking intervention", "A 10-week intervention measured walking and total sleep time."]
+    }
+  },
+  {
+    "id": "n3-exact-indexed", "split": "val", "expect": "direct",
+    "questions": ["请查每日走路步数与当晚深睡的研究", "白天步数和同一晚深度睡眠的证据", "有没有跟踪步数和当晚深睡时长的论文", "日步数与那一晚深睡时间有没有文献", "找每日步数涉及当晚深睡的论文"],
+    "responses": {
+      "strict": ["Same-night N3 sleep and step counts", "Step counts measured on each study day were paired with N3 sleep on the same night."],
+      "metrics": ["Exercise and N3 sleep", "A 4-week intervention measured walking and N3 sleep."]
+    }
+  },
+  {
+    "id": "self-reported-no-temporal-order", "split": "val", "expect": "context",
+    "questions": ["白天走得多会跟当晚睡眠时长有关吗，有研究吗", "查步数与当晚总睡眠时间相关的论文", "想了解日步数和当晚睡多久的研究", "有证据对比白天步数和那一晚睡眠时间吗", "查当天有效步数与随后一晚总睡眠"],
+    "responses": {
+      "strict": ["Daily steps and typical sleep duration", "A survey asked for daily steps and usual sleep duration without linking dates."],
+      "metrics": ["Sleep duration following a walking intervention", "A 12-week intervention examined daily steps and sleep duration."],
+      "broader": ["Walking and reported sleep", "The study recorded physical activity and typical sleep duration."]
+    }
+  },
+  {
+    "id": "n3-only-in-abstract", "split": "test", "expect": "direct",
+    "questions": ["按天走路步数与当晚深睡有没有论文", "研究是否同时记录单日步数和之后当晚的深睡时长", "查当天计步和夜间深度睡眠", "有没有资料对齐当天步数和晚上深睡", "文献中当日走得更多与当夜深睡时间有关吗"],
+    "responses": {
+      "metrics": ["Day and night measurements in a home cohort", "The number of steps and deep sleep duration on the following night were measured for each day."],
+      "broader": ["Walking and sleep after eight weeks", "Walking and N3 sleep were tracked throughout an 8-week intervention."]
+    }
+  },
+  {
+    "id": "sleep-missing-activity", "split": "test", "expect": "insufficient",
+    "questions": ["找当天步数与当晚睡眠总时间的研究", "有没有日步数和那晚睡得久不久的文献", "查每日活动步数及同夜总睡眠时间", "有当天走了多少步对比当晚总睡眠的论文吗", "想知道研究有没有对比白天步数和当晚的睡眠时长"],
+    "responses": {
+      "strict": ["Genetics of sleep duration", "Total sleep time on the same night was assessed during the laboratory observation."],
+      "metrics": ["How a sleep monitor measures duration", "The study measured total sleep time without collecting daytime activity data."],
+      "broader": ["Daytime pedometer comparison", "Pedometer calibration was compared with another activity tracker."]
+    }
+  },
+  {
+    "id": "same-night-wrong-exposure", "split": "test", "expect": "context",
+    "questions": ["当天步数多不多与晚上睡得久不久，有研究吗", "查当晚睡眠时长对每日步数的文献", "白天步数和夜里总睡眠时间有论文吗", "有按日步数匹配当晚睡眠时间的证据吗", "我想看每日步数与随后一晚睡眠总时长的研究"],
+    "responses": {
+      "strict": ["Exercise minutes and sleep duration", "Each participant recorded exercise minutes and sleep duration on the following night."],
+      "metrics": ["Duration of physical activity and same-night sleep", "We paired minutes of physical activity with same-night total sleep time."],
+      "broader": ["General activity and sleep duration", "The survey reported sleep duration and physical activity."]
+    }
+  }
+]

@@ -1,0 +1,2482 @@
+{
+  "test_sha256": "60aa05989ae02f072cb1ff1454224d3ebf13db61e5d9b774856788b330f8af56",
+  "classifiers": {
+    "qwen3_base": {
+      "correct": 0,
+      "total": 60,
+      "macro_f1": 0.0,
+      "invalid": 60,
+      "by_label": {
+        "analyze": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        },
+        "explain": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        },
+        "plan": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        },
+        "review_goal": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        },
+        "unknown": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        }
+      },
+      "median_ms": 125.2,
+      "p95_ms": 135.4,
+      "predictions": [
+        {
+          "text": "最近三天的睡眠时长中位数呢",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 133.317
+        },
+        {
+          "text": "周末的总步数摊到两天是多少",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 131.939
+        },
+        {
+          "text": "睡眠日志里哪一天最短",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 115.606
+        },
+        {
+          "text": "已上传的步数按周汇总给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 138.861
+        },
+        {
+          "text": "最近的睡眠记录缺了几晚",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 127.245
+        },
+        {
+          "text": "我这个星期走的总量报给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 119.532
+        },
+        {
+          "text": "比一下两个周末的走路量",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 286.42
+        },
+        {
+          "text": "前天那晚合计休息几小时",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 114.687
+        },
+        {
+          "text": "把近六日睡眠数字列一下",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 104.943
+        },
+        {
+          "text": "给我睡眠时长的最小最大值",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 123.156
+        },
+        {
+          "text": "步数走平应该怎么理解",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 103.671
+        },
+        {
+          "text": "哪种缺测会让睡眠均值偏高",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 104.408
+        },
+        {
+          "text": "这里的睡眠窗口具体是啥概念",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 113.051
+        },
+        {
+          "text": "想理解步数折线的斜率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 130.088
+        },
+        {
+          "text": "睡眠观测日和自然日有什么不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 115.427
+        },
+        {
+          "text": "怎样读懂步数取样覆盖率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 115.282
+        },
+        {
+          "text": "记录了零步和缺少一天到底有何不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 132.32
+        },
+        {
+          "text": "请描述睡眠累计值和日均值的关系",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 131.609
+        },
+        {
+          "text": "为什么两周步数均值接近但总量不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 126.834
+        },
+        {
+          "text": "睡眠记录中断那行应如何看待",
+          "recent": [],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 127.841
+        },
+        {
+          "text": "我想把走路安排进午饭后，有什么可坚持的办法",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 131.2
+        },
+        {
+          "text": "来一个适合经常加班的人坚持的睡眠行动方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 130.104
+        },
+        {
+          "text": "天气热想改到早晨走，有啥合理的安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 118.391
+        },
+        {
+          "text": "想先从很短的散步开始，你建议怎么排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 119.436
+        },
+        {
+          "text": "我想逐周把睡眠作息稳定下来，能给个行动清单吗",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 118.905
+        },
+        {
+          "text": "如果只考虑有空的工作日，怎样设计步行习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 126.822
+        },
+        {
+          "text": "每天下班晚，怎么做一个容易遵守的睡眠准备流程",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 134.846
+        },
+        {
+          "text": "出门不便，帮我找在家活动的替代方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 112.726
+        },
+        {
+          "text": "刚开始记录步数，怎样慢慢养成习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 135.414
+        },
+        {
+          "text": "有什么容易接受的一周睡眠调整安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 111.35
+        },
+        {
+          "text": "已定的步行标准，这几天兑现得如何",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 130.411
+        },
+        {
+          "text": "本周睡眠计划的执行成效可以复核吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 122.449
+        },
+        {
+          "text": "对照前几天定的步数门槛，新数据有多少合格日",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 121.172
+        },
+        {
+          "text": "这一周睡眠目标完成比例怎么样",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 119.308
+        },
+        {
+          "text": "原先那个行走目标还有多少差距",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 103.565
+        },
+        {
+          "text": "请按现有目标检查近期步数执行度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 125.045
+        },
+        {
+          "text": "能不能验收一下每日睡够这个目标",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 120.881
+        },
+        {
+          "text": "按此前的睡眠指标盘点一下过线的天数",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 119.644
+        },
+        {
+          "text": "用最新两周步数看我走路目标的完成度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 120.173
+        },
+        {
+          "text": "昨天我的睡眠达到已设阈值了吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 109.961
+        },
+        {
+          "text": "今天不用核查走路量",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 131.471
+        },
+        {
+          "text": "什么时候再讨论睡眠目标都行，今天先不做",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 133.664
+        },
+        {
+          "text": "我只是说朋友睡了六个小时",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 110.951
+        },
+        {
+          "text": "请将我的睡眠指标写成每天七小时目标",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 128.811
+        },
+        {
+          "text": "步数先别算，等我上传新数据再说",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 106.349
+        },
+        {
+          "text": "我对昨晚的睡眠已经完成检查",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 102.426
+        },
+        {
+          "text": "想用步数猜一下手表的购买价格",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 122.496
+        },
+        {
+          "text": "我刚睡醒喉咙不适，判断是什么病",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 125.272
+        },
+        {
+          "text": "睡眠规划目前不用调整",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 133.585
+        },
+        {
+          "text": "要是下个月加班再来做步行计划",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 128.883
+        },
+        {
+          "text": "把另一段也放进来",
+          "recent": [
+            [
+              "我在对比前一周和这一周的睡眠时长",
+              "目前只有前一周的数据。"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 133.088
+        },
+        {
+          "text": "只要后半段的合计",
+          "recent": [
+            [
+              "我上传了两周的步数",
+              "需要怎样统计？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": null,
+          "ms": 131.604
+        },
+        {
+          "text": "怎么会看起来反过来",
+          "recent": [
+            [
+              "我这周步数总量更高，日均却更低",
+              "可以解释两种统计口径。"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 133.665
+        },
+        {
+          "text": "说清这数代表的意思",
+          "recent": [
+            [
+              "结果里出现睡眠记录覆盖率",
+              "你想了解它的计算口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": null,
+          "ms": 133.554
+        },
+        {
+          "text": "想办法换一个在家能坚持的",
+          "recent": [
+            [
+              "户外步行计划这周很难实行",
+              "需要调整活动方案吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 133.035
+        },
+        {
+          "text": "把它安排到早班之前吧",
+          "recent": [
+            [
+              "我想固定一个步行时段",
+              "你平时什么时间方便？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": null,
+          "ms": 135.55
+        },
+        {
+          "text": "帮我看看兑现了几成",
+          "recent": [
+            [
+              "我想回顾之前约定的睡眠目标",
+              "有最新数据可用。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 130.833
+        },
+        {
+          "text": "那我赶上预定进度了吗",
+          "recent": [
+            [
+              "目标是这周连续三天达步数门槛",
+              "已经导入这周的活动数据。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": null,
+          "ms": 131.587
+        },
+        {
+          "text": "这回先不做了",
+          "recent": [
+            [
+              "下周睡眠计划要我帮你制定吗",
+              "你需要时我可以安排。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 120.082
+        },
+        {
+          "text": "直接把数字录进去",
+          "recent": [
+            [
+              "现在的每日步数目标还是八千吗",
+              "之前的目标是八千。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": null,
+          "ms": 122.447
+        }
+      ]
+    },
+    "qwen3_lora": {
+      "correct": 21,
+      "total": 60,
+      "macro_f1": 0.2506,
+      "invalid": 0,
+      "by_label": {
+        "analyze": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        },
+        "explain": {
+          "support": 12,
+          "correct": 8,
+          "f1": 0.5714
+        },
+        "plan": {
+          "support": 12,
+          "correct": 11,
+          "f1": 0.4151
+        },
+        "review_goal": {
+          "support": 12,
+          "correct": 2,
+          "f1": 0.2667
+        },
+        "unknown": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        }
+      },
+      "median_ms": 169.6,
+      "p95_ms": 187.1,
+      "predictions": [
+        {
+          "text": "最近三天的睡眠时长中位数呢",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 177.184
+        },
+        {
+          "text": "周末的总步数摊到两天是多少",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 187.053
+        },
+        {
+          "text": "睡眠日志里哪一天最短",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "explain",
+          "ms": 168.455
+        },
+        {
+          "text": "已上传的步数按周汇总给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 187.32
+        },
+        {
+          "text": "最近的睡眠记录缺了几晚",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 186.501
+        },
+        {
+          "text": "我这个星期走的总量报给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 169.898
+        },
+        {
+          "text": "比一下两个周末的走路量",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 148.581
+        },
+        {
+          "text": "前天那晚合计休息几小时",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "explain",
+          "ms": 162.431
+        },
+        {
+          "text": "把近六日睡眠数字列一下",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 154.112
+        },
+        {
+          "text": "给我睡眠时长的最小最大值",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 167.692
+        },
+        {
+          "text": "步数走平应该怎么理解",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 151.041
+        },
+        {
+          "text": "哪种缺测会让睡眠均值偏高",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 160.614
+        },
+        {
+          "text": "这里的睡眠窗口具体是啥概念",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 159.893
+        },
+        {
+          "text": "想理解步数折线的斜率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 180.914
+        },
+        {
+          "text": "睡眠观测日和自然日有什么不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 158.143
+        },
+        {
+          "text": "怎样读懂步数取样覆盖率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 150.0
+        },
+        {
+          "text": "记录了零步和缺少一天到底有何不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 163.91
+        },
+        {
+          "text": "请描述睡眠累计值和日均值的关系",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 167.278
+        },
+        {
+          "text": "为什么两周步数均值接近但总量不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 169.39
+        },
+        {
+          "text": "睡眠记录中断那行应如何看待",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 167.505
+        },
+        {
+          "text": "我想把走路安排进午饭后，有什么可坚持的办法",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 165.833
+        },
+        {
+          "text": "来一个适合经常加班的人坚持的睡眠行动方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 179.44
+        },
+        {
+          "text": "天气热想改到早晨走，有啥合理的安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 180.621
+        },
+        {
+          "text": "想先从很短的散步开始，你建议怎么排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 179.108
+        },
+        {
+          "text": "我想逐周把睡眠作息稳定下来，能给个行动清单吗",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 182.522
+        },
+        {
+          "text": "如果只考虑有空的工作日，怎样设计步行习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 179.638
+        },
+        {
+          "text": "每天下班晚，怎么做一个容易遵守的睡眠准备流程",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 177.464
+        },
+        {
+          "text": "出门不便，帮我找在家活动的替代方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 161.169
+        },
+        {
+          "text": "刚开始记录步数，怎样慢慢养成习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 183.831
+        },
+        {
+          "text": "有什么容易接受的一周睡眠调整安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "explain",
+          "ms": 152.746
+        },
+        {
+          "text": "已定的步行标准，这几天兑现得如何",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "explain",
+          "ms": 168.427
+        },
+        {
+          "text": "本周睡眠计划的执行成效可以复核吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 194.473
+        },
+        {
+          "text": "对照前几天定的步数门槛，新数据有多少合格日",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 187.079
+        },
+        {
+          "text": "这一周睡眠目标完成比例怎么样",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "explain",
+          "ms": 176.237
+        },
+        {
+          "text": "原先那个行走目标还有多少差距",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 155.911
+        },
+        {
+          "text": "请按现有目标检查近期步数执行度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "review_goal",
+          "ms": 178.956
+        },
+        {
+          "text": "能不能验收一下每日睡够这个目标",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 163.914
+        },
+        {
+          "text": "按此前的睡眠指标盘点一下过线的天数",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 168.297
+        },
+        {
+          "text": "用最新两周步数看我走路目标的完成度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 164.398
+        },
+        {
+          "text": "昨天我的睡眠达到已设阈值了吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 149.234
+        },
+        {
+          "text": "今天不用核查走路量",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 172.616
+        },
+        {
+          "text": "什么时候再讨论睡眠目标都行，今天先不做",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 182.872
+        },
+        {
+          "text": "我只是说朋友睡了六个小时",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "explain",
+          "ms": 166.875
+        },
+        {
+          "text": "请将我的睡眠指标写成每天七小时目标",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 179.98
+        },
+        {
+          "text": "步数先别算，等我上传新数据再说",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 154.189
+        },
+        {
+          "text": "我对昨晚的睡眠已经完成检查",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "explain",
+          "ms": 148.898
+        },
+        {
+          "text": "想用步数猜一下手表的购买价格",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 164.732
+        },
+        {
+          "text": "我刚睡醒喉咙不适，判断是什么病",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 171.595
+        },
+        {
+          "text": "睡眠规划目前不用调整",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 177.867
+        },
+        {
+          "text": "要是下个月加班再来做步行计划",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 181.627
+        },
+        {
+          "text": "把另一段也放进来",
+          "recent": [
+            [
+              "我在对比前一周和这一周的睡眠时长",
+              "目前只有前一周的数据。"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "plan",
+          "ms": 185.116
+        },
+        {
+          "text": "只要后半段的合计",
+          "recent": [
+            [
+              "我上传了两周的步数",
+              "需要怎样统计？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "explain",
+          "ms": 185.125
+        },
+        {
+          "text": "怎么会看起来反过来",
+          "recent": [
+            [
+              "我这周步数总量更高，日均却更低",
+              "可以解释两种统计口径。"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 178.401
+        },
+        {
+          "text": "说清这数代表的意思",
+          "recent": [
+            [
+              "结果里出现睡眠记录覆盖率",
+              "你想了解它的计算口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "plan",
+          "ms": 182.847
+        },
+        {
+          "text": "想办法换一个在家能坚持的",
+          "recent": [
+            [
+              "户外步行计划这周很难实行",
+              "需要调整活动方案吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 167.847
+        },
+        {
+          "text": "把它安排到早班之前吧",
+          "recent": [
+            [
+              "我想固定一个步行时段",
+              "你平时什么时间方便？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 170.779
+        },
+        {
+          "text": "帮我看看兑现了几成",
+          "recent": [
+            [
+              "我想回顾之前约定的睡眠目标",
+              "有最新数据可用。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 171.87
+        },
+        {
+          "text": "那我赶上预定进度了吗",
+          "recent": [
+            [
+              "目标是这周连续三天达步数门槛",
+              "已经导入这周的活动数据。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "plan",
+          "ms": 169.18
+        },
+        {
+          "text": "这回先不做了",
+          "recent": [
+            [
+              "下周睡眠计划要我帮你制定吗",
+              "你需要时我可以安排。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "plan",
+          "ms": 167.132
+        },
+        {
+          "text": "直接把数字录进去",
+          "recent": [
+            [
+              "现在的每日步数目标还是八千吗",
+              "之前的目标是八千。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "review_goal",
+          "ms": 185.414
+        }
+      ]
+    },
+    "ollama_qwen2_5": {
+      "correct": 19,
+      "total": 60,
+      "macro_f1": 0.2591,
+      "invalid": 0,
+      "by_label": {
+        "analyze": {
+          "support": 12,
+          "correct": 12,
+          "f1": 0.3871
+        },
+        "explain": {
+          "support": 12,
+          "correct": 1,
+          "f1": 0.1333
+        },
+        "plan": {
+          "support": 12,
+          "correct": 3,
+          "f1": 0.4
+        },
+        "review_goal": {
+          "support": 12,
+          "correct": 0,
+          "f1": 0.0
+        },
+        "unknown": {
+          "support": 12,
+          "correct": 3,
+          "f1": 0.375
+        }
+      },
+      "median_ms": 236.8,
+      "p95_ms": 277.4,
+      "predictions": [
+        {
+          "text": "最近三天的睡眠时长中位数呢",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 209.87
+        },
+        {
+          "text": "周末的总步数摊到两天是多少",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 249.306
+        },
+        {
+          "text": "睡眠日志里哪一天最短",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 245.202
+        },
+        {
+          "text": "已上传的步数按周汇总给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 239.568
+        },
+        {
+          "text": "最近的睡眠记录缺了几晚",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 212.73
+        },
+        {
+          "text": "我这个星期走的总量报给我",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 208.724
+        },
+        {
+          "text": "比一下两个周末的走路量",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 205.557
+        },
+        {
+          "text": "前天那晚合计休息几小时",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 239.267
+        },
+        {
+          "text": "把近六日睡眠数字列一下",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 236.321
+        },
+        {
+          "text": "给我睡眠时长的最小最大值",
+          "recent": [],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 244.08
+        },
+        {
+          "text": "步数走平应该怎么理解",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 241.662
+        },
+        {
+          "text": "哪种缺测会让睡眠均值偏高",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 195.625
+        },
+        {
+          "text": "这里的睡眠窗口具体是啥概念",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 228.73
+        },
+        {
+          "text": "想理解步数折线的斜率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 227.437
+        },
+        {
+          "text": "睡眠观测日和自然日有什么不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 196.381
+        },
+        {
+          "text": "怎样读懂步数取样覆盖率",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 252.082
+        },
+        {
+          "text": "记录了零步和缺少一天到底有何不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 241.752
+        },
+        {
+          "text": "请描述睡眠累计值和日均值的关系",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 277.37
+        },
+        {
+          "text": "为什么两周步数均值接近但总量不同",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 193.883
+        },
+        {
+          "text": "睡眠记录中断那行应如何看待",
+          "recent": [],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 233.49
+        },
+        {
+          "text": "我想把走路安排进午饭后，有什么可坚持的办法",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "explain",
+          "ms": 234.067
+        },
+        {
+          "text": "来一个适合经常加班的人坚持的睡眠行动方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "analyze",
+          "ms": 212.614
+        },
+        {
+          "text": "天气热想改到早晨走，有啥合理的安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "analyze",
+          "ms": 296.697
+        },
+        {
+          "text": "想先从很短的散步开始，你建议怎么排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 253.835
+        },
+        {
+          "text": "我想逐周把睡眠作息稳定下来，能给个行动清单吗",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "analyze",
+          "ms": 283.079
+        },
+        {
+          "text": "如果只考虑有空的工作日，怎样设计步行习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "analyze",
+          "ms": 235.44
+        },
+        {
+          "text": "每天下班晚，怎么做一个容易遵守的睡眠准备流程",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 235.005
+        },
+        {
+          "text": "出门不便，帮我找在家活动的替代方案",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "unknown",
+          "ms": 230.328
+        },
+        {
+          "text": "刚开始记录步数，怎样慢慢养成习惯",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "analyze",
+          "ms": 238.866
+        },
+        {
+          "text": "有什么容易接受的一周睡眠调整安排",
+          "recent": [],
+          "expected": "plan",
+          "predicted": "analyze",
+          "ms": 212.935
+        },
+        {
+          "text": "已定的步行标准，这几天兑现得如何",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "explain",
+          "ms": 205.831
+        },
+        {
+          "text": "本周睡眠计划的执行成效可以复核吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 276.517
+        },
+        {
+          "text": "对照前几天定的步数门槛，新数据有多少合格日",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 234.261
+        },
+        {
+          "text": "这一周睡眠目标完成比例怎么样",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 234.076
+        },
+        {
+          "text": "原先那个行走目标还有多少差距",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 237.35
+        },
+        {
+          "text": "请按现有目标检查近期步数执行度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 239.106
+        },
+        {
+          "text": "能不能验收一下每日睡够这个目标",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 245.163
+        },
+        {
+          "text": "按此前的睡眠指标盘点一下过线的天数",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 215.495
+        },
+        {
+          "text": "用最新两周步数看我走路目标的完成度",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 243.089
+        },
+        {
+          "text": "昨天我的睡眠达到已设阈值了吗",
+          "recent": [],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 250.719
+        },
+        {
+          "text": "今天不用核查走路量",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 201.093
+        },
+        {
+          "text": "什么时候再讨论睡眠目标都行，今天先不做",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 234.951
+        },
+        {
+          "text": "我只是说朋友睡了六个小时",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 198.482
+        },
+        {
+          "text": "请将我的睡眠指标写成每天七小时目标",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 244.26
+        },
+        {
+          "text": "步数先别算，等我上传新数据再说",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 243.747
+        },
+        {
+          "text": "我对昨晚的睡眠已经完成检查",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 205.832
+        },
+        {
+          "text": "想用步数猜一下手表的购买价格",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 227.739
+        },
+        {
+          "text": "我刚睡醒喉咙不适，判断是什么病",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 189.554
+        },
+        {
+          "text": "睡眠规划目前不用调整",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 192.912
+        },
+        {
+          "text": "要是下个月加班再来做步行计划",
+          "recent": [],
+          "expected": "unknown",
+          "predicted": "unknown",
+          "ms": 229.424
+        },
+        {
+          "text": "把另一段也放进来",
+          "recent": [
+            [
+              "我在对比前一周和这一周的睡眠时长",
+              "目前只有前一周的数据。"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 245.308
+        },
+        {
+          "text": "只要后半段的合计",
+          "recent": [
+            [
+              "我上传了两周的步数",
+              "需要怎样统计？"
+            ]
+          ],
+          "expected": "analyze",
+          "predicted": "analyze",
+          "ms": 248.622
+        },
+        {
+          "text": "怎么会看起来反过来",
+          "recent": [
+            [
+              "我这周步数总量更高，日均却更低",
+              "可以解释两种统计口径。"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "explain",
+          "ms": 241.098
+        },
+        {
+          "text": "说清这数代表的意思",
+          "recent": [
+            [
+              "结果里出现睡眠记录覆盖率",
+              "你想了解它的计算口径吗？"
+            ]
+          ],
+          "expected": "explain",
+          "predicted": "analyze",
+          "ms": 235.575
+        },
+        {
+          "text": "想办法换一个在家能坚持的",
+          "recent": [
+            [
+              "户外步行计划这周很难实行",
+              "需要调整活动方案吗？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "plan",
+          "ms": 246.239
+        },
+        {
+          "text": "把它安排到早班之前吧",
+          "recent": [
+            [
+              "我想固定一个步行时段",
+              "你平时什么时间方便？"
+            ]
+          ],
+          "expected": "plan",
+          "predicted": "analyze",
+          "ms": 250.921
+        },
+        {
+          "text": "帮我看看兑现了几成",
+          "recent": [
+            [
+              "我想回顾之前约定的睡眠目标",
+              "有最新数据可用。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 292.28
+        },
+        {
+          "text": "那我赶上预定进度了吗",
+          "recent": [
+            [
+              "目标是这周连续三天达步数门槛",
+              "已经导入这周的活动数据。"
+            ]
+          ],
+          "expected": "review_goal",
+          "predicted": "analyze",
+          "ms": 243.982
+        },
+        {
+          "text": "这回先不做了",
+          "recent": [
+            [
+              "下周睡眠计划要我帮你制定吗",
+              "你需要时我可以安排。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 250.293
+        },
+        {
+          "text": "直接把数字录进去",
+          "recent": [
+            [
+              "现在的每日步数目标还是八千吗",
+              "之前的目标是八千。"
+            ]
+          ],
+          "expected": "unknown",
+          "predicted": "analyze",
+          "ms": 258.779
+        }
+      ]
+    }
+  },
+  "routing": {
+    "rules_only": {
+      "correct": 17,
+      "total": 24,
+      "fallback_cases": 0,
+      "fallback_correct": 0,
+      "unexpected_actions": 0,
+      "median_ms": 0.1,
+      "p95_ms": 0.3,
+      "predictions": [
+        {
+          "text": "昨天走了多少步",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.523
+        },
+        {
+          "text": "对比上周和上上周的睡眠时长",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.113
+        },
+        {
+          "text": "解释步数缺测日怎么处理",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 0,
+          "ms": 0.168
+        },
+        {
+          "text": "根据本周睡眠记录，给我制定一个改善计划",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 0,
+          "ms": 0.119
+        },
+        {
+          "text": "复盘本周的步数目标",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.097
+        },
+        {
+          "text": "把我的每日步数目标设置为 9000 步",
+          "expected": [
+            "set_goal"
+          ],
+          "predicted": [
+            "set_goal"
+          ],
+          "calls": 0,
+          "ms": 0.3
+        },
+        {
+          "text": "比较两周的睡眠时长，另外复盘步数目标",
+          "expected": [
+            "analyze",
+            "review_goal"
+          ],
+          "predicted": [
+            "analyze",
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.122
+        },
+        {
+          "text": "只比较本周和上周的睡眠时长，别解释",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.14
+        },
+        {
+          "text": "不用看步数，只查上周睡眠",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.109
+        },
+        {
+          "text": "如果上周步数没达标，再把步数目标改成每天8000步",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.122
+        },
+        {
+          "text": "我已经查过了上周睡眠数据",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.101
+        },
+        {
+          "text": "下周再设定睡眠目标到8小时",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.102
+        },
+        {
+          "text": "可以把睡眠目标设置为每天9小时吗",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.11
+        },
+        {
+          "text": "给我用药来改善睡眠",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.091
+        },
+        {
+          "text": "我想和你说睡眠的事",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.092
+        },
+        {
+          "text": "报告里那一小截呢",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.089
+        },
+        {
+          "text": "给个能塞进午饭后的招",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.093
+        },
+        {
+          "text": "这比原定标准还差几成",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.093
+        },
+        {
+          "text": "那段区间是什么含义",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.092
+        },
+        {
+          "text": "按工作日合计一下",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.089
+        },
+        {
+          "text": "之前那组先搁置",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.088
+        },
+        {
+          "text": "我现在就想拿点能在室内做的办法",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.101
+        },
+        {
+          "text": "这几个数字的含义呢",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.1
+        },
+        {
+          "text": "这已经弄完咯",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.085
+        }
+      ]
+    },
+    "qwen3_base": {
+      "correct": 17,
+      "total": 24,
+      "fallback_cases": 10,
+      "fallback_correct": 3,
+      "unexpected_actions": 0,
+      "median_ms": 0.3,
+      "p95_ms": 132.3,
+      "predictions": [
+        {
+          "text": "昨天走了多少步",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.301
+        },
+        {
+          "text": "对比上周和上上周的睡眠时长",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.241
+        },
+        {
+          "text": "解释步数缺测日怎么处理",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 0,
+          "ms": 0.329
+        },
+        {
+          "text": "根据本周睡眠记录，给我制定一个改善计划",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 0,
+          "ms": 0.247
+        },
+        {
+          "text": "复盘本周的步数目标",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.21
+        },
+        {
+          "text": "把我的每日步数目标设置为 9000 步",
+          "expected": [
+            "set_goal"
+          ],
+          "predicted": [
+            "set_goal"
+          ],
+          "calls": 0,
+          "ms": 0.196
+        },
+        {
+          "text": "比较两周的睡眠时长，另外复盘步数目标",
+          "expected": [
+            "analyze",
+            "review_goal"
+          ],
+          "predicted": [
+            "analyze",
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.209
+        },
+        {
+          "text": "只比较本周和上周的睡眠时长，别解释",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.196
+        },
+        {
+          "text": "不用看步数，只查上周睡眠",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.203
+        },
+        {
+          "text": "如果上周步数没达标，再把步数目标改成每天8000步",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.193
+        },
+        {
+          "text": "我已经查过了上周睡眠数据",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.183
+        },
+        {
+          "text": "下周再设定睡眠目标到8小时",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.178
+        },
+        {
+          "text": "可以把睡眠目标设置为每天9小时吗",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.191
+        },
+        {
+          "text": "给我用药来改善睡眠",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.169
+        },
+        {
+          "text": "我想和你说睡眠的事",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 102.345
+        },
+        {
+          "text": "报告里那一小截呢",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [],
+          "calls": 1,
+          "ms": 121.206
+        },
+        {
+          "text": "给个能塞进午饭后的招",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [],
+          "calls": 1,
+          "ms": 125.921
+        },
+        {
+          "text": "这比原定标准还差几成",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [],
+          "calls": 1,
+          "ms": 122.867
+        },
+        {
+          "text": "那段区间是什么含义",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [],
+          "calls": 1,
+          "ms": 122.234
+        },
+        {
+          "text": "按工作日合计一下",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [],
+          "calls": 1,
+          "ms": 114.777
+        },
+        {
+          "text": "之前那组先搁置",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 132.281
+        },
+        {
+          "text": "我现在就想拿点能在室内做的办法",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [],
+          "calls": 1,
+          "ms": 132.331
+        },
+        {
+          "text": "这几个数字的含义呢",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [],
+          "calls": 1,
+          "ms": 135.731
+        },
+        {
+          "text": "这已经弄完咯",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 127.804
+        }
+      ]
+    },
+    "qwen3_lora": {
+      "correct": 20,
+      "total": 24,
+      "fallback_cases": 10,
+      "fallback_correct": 6,
+      "unexpected_actions": 1,
+      "median_ms": 0.3,
+      "p95_ms": 183.2,
+      "predictions": [
+        {
+          "text": "昨天走了多少步",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.401
+        },
+        {
+          "text": "对比上周和上上周的睡眠时长",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.259
+        },
+        {
+          "text": "解释步数缺测日怎么处理",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 0,
+          "ms": 0.219
+        },
+        {
+          "text": "根据本周睡眠记录，给我制定一个改善计划",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 0,
+          "ms": 0.229
+        },
+        {
+          "text": "复盘本周的步数目标",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.217
+        },
+        {
+          "text": "把我的每日步数目标设置为 9000 步",
+          "expected": [
+            "set_goal"
+          ],
+          "predicted": [
+            "set_goal"
+          ],
+          "calls": 0,
+          "ms": 0.237
+        },
+        {
+          "text": "比较两周的睡眠时长，另外复盘步数目标",
+          "expected": [
+            "analyze",
+            "review_goal"
+          ],
+          "predicted": [
+            "analyze",
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.232
+        },
+        {
+          "text": "只比较本周和上周的睡眠时长，别解释",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.35
+        },
+        {
+          "text": "不用看步数，只查上周睡眠",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.253
+        },
+        {
+          "text": "如果上周步数没达标，再把步数目标改成每天8000步",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.242
+        },
+        {
+          "text": "我已经查过了上周睡眠数据",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.227
+        },
+        {
+          "text": "下周再设定睡眠目标到8小时",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.213
+        },
+        {
+          "text": "可以把睡眠目标设置为每天9小时吗",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.212
+        },
+        {
+          "text": "给我用药来改善睡眠",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.195
+        },
+        {
+          "text": "我想和你说睡眠的事",
+          "expected": [],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 1,
+          "ms": 165.039
+        },
+        {
+          "text": "报告里那一小截呢",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 1,
+          "ms": 183.191
+        },
+        {
+          "text": "给个能塞进午饭后的招",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 1,
+          "ms": 183.584
+        },
+        {
+          "text": "这比原定标准还差几成",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 1,
+          "ms": 177.745
+        },
+        {
+          "text": "那段区间是什么含义",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 1,
+          "ms": 164.87
+        },
+        {
+          "text": "按工作日合计一下",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 1,
+          "ms": 168.577
+        },
+        {
+          "text": "之前那组先搁置",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 169.437
+        },
+        {
+          "text": "我现在就想拿点能在室内做的办法",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 1,
+          "ms": 164.389
+        },
+        {
+          "text": "这几个数字的含义呢",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 1,
+          "ms": 166.643
+        },
+        {
+          "text": "这已经弄完咯",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 176.088
+        }
+      ]
+    },
+    "ollama_qwen2_5": {
+      "correct": 20,
+      "total": 24,
+      "fallback_cases": 10,
+      "fallback_correct": 6,
+      "unexpected_actions": 0,
+      "median_ms": 0.6,
+      "p95_ms": 243.5,
+      "predictions": [
+        {
+          "text": "昨天走了多少步",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.668
+        },
+        {
+          "text": "对比上周和上上周的睡眠时长",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.49
+        },
+        {
+          "text": "解释步数缺测日怎么处理",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "explain"
+          ],
+          "calls": 0,
+          "ms": 0.596
+        },
+        {
+          "text": "根据本周睡眠记录，给我制定一个改善计划",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 0,
+          "ms": 0.613
+        },
+        {
+          "text": "复盘本周的步数目标",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.494
+        },
+        {
+          "text": "把我的每日步数目标设置为 9000 步",
+          "expected": [
+            "set_goal"
+          ],
+          "predicted": [
+            "set_goal"
+          ],
+          "calls": 0,
+          "ms": 0.356
+        },
+        {
+          "text": "比较两周的睡眠时长，另外复盘步数目标",
+          "expected": [
+            "analyze",
+            "review_goal"
+          ],
+          "predicted": [
+            "analyze",
+            "review_goal"
+          ],
+          "calls": 0,
+          "ms": 0.356
+        },
+        {
+          "text": "只比较本周和上周的睡眠时长，别解释",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.358
+        },
+        {
+          "text": "不用看步数，只查上周睡眠",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 0,
+          "ms": 0.362
+        },
+        {
+          "text": "如果上周步数没达标，再把步数目标改成每天8000步",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.355
+        },
+        {
+          "text": "我已经查过了上周睡眠数据",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.303
+        },
+        {
+          "text": "下周再设定睡眠目标到8小时",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.288
+        },
+        {
+          "text": "可以把睡眠目标设置为每天9小时吗",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.291
+        },
+        {
+          "text": "给我用药来改善睡眠",
+          "expected": [],
+          "predicted": [],
+          "calls": 0,
+          "ms": 0.276
+        },
+        {
+          "text": "我想和你说睡眠的事",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 180.5
+        },
+        {
+          "text": "报告里那一小截呢",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 1,
+          "ms": 238.913
+        },
+        {
+          "text": "给个能塞进午饭后的招",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "plan"
+          ],
+          "calls": 1,
+          "ms": 238.919
+        },
+        {
+          "text": "这比原定标准还差几成",
+          "expected": [
+            "review_goal"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 1,
+          "ms": 234.925
+        },
+        {
+          "text": "那段区间是什么含义",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 1,
+          "ms": 243.518
+        },
+        {
+          "text": "按工作日合计一下",
+          "expected": [
+            "analyze"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 1,
+          "ms": 250.532
+        },
+        {
+          "text": "之前那组先搁置",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 241.269
+        },
+        {
+          "text": "我现在就想拿点能在室内做的办法",
+          "expected": [
+            "plan"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 1,
+          "ms": 232.741
+        },
+        {
+          "text": "这几个数字的含义呢",
+          "expected": [
+            "explain"
+          ],
+          "predicted": [
+            "analyze"
+          ],
+          "calls": 1,
+          "ms": 242.753
+        },
+        {
+          "text": "这已经弄完咯",
+          "expected": [],
+          "predicted": [],
+          "calls": 1,
+          "ms": 235.333
+        }
+      ]
+    }
+  }
+}

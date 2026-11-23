@@ -1,0 +1,4 @@
+{"id":"sleep-duration","title":"总睡眠时长与睡眠质量","url":"https://medlineplus.gov/healthysleep.html","text":"总睡眠时长（sleep duration）描述一晚睡了多久。睡眠质量（sleep quality）还涉及睡眠是否连续、起床后是否恢复精力。即使两晚的睡眠时长相同，白天的疲劳感也可能不同。讨论改善目标时，可先确认用户想增加睡眠时间、减少夜间醒来，还是改善醒后的感受。"}
+{"id":"sleep-stages","title":"深睡与睡眠分期","url":"https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep","text":"深睡（deep sleep，也称慢波睡眠）对应非快速眼动睡眠的第三阶段。深睡时长只统计这一阶段，总睡眠时长涵盖不同睡眠阶段。比较两份记录时，应先核对它们使用的是总睡眠时间还是深睡时间。"}
+{"id":"activity-intensity","title":"每日步数与身体活动强度","url":"https://www.cdc.gov/physical-activity-basics/measuring/index.html","text":"每日步数（daily step count）描述一天记录到多少步。身体活动强度（physical activity intensity）关注活动有多费力，可用说话测试、主观用力程度或心率等方法判断。相同的步数可能来自不同速度和活动安排，步数和活动强度应分别比较。"}
+{"id":"paired-observations","title":"每日步数与当晚睡眠的配对口径","url":"https://www.nature.com/articles/s41586-026-11161-8","text":"按当晚分析每日步数与睡眠时，先确认睡眠日期指入睡日还是记录日，再把同一日期的步数与睡眠指标配对。总睡眠时长和深睡时长是不同的结局。分组均值只能描述个人记录中观察到的差异，无法单独确定步数变化是否造成了睡眠变化。"}

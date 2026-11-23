@@ -1,0 +1,140 @@
+{"text": "步数在换手机后的前六天这段按记录日摊下来是多少？", "recent": [], "choice": "analyze", "family": "test-single-analyze-0", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "想知道换手机后的前六天的步数有没有比换手机前的六天高。", "recent": [], "choice": "analyze", "family": "test-single-analyze-1", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "换手机后的前六天的步数哪一条最低，麻烦帮我找出来。", "recent": [], "choice": "analyze", "family": "test-single-analyze-2", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "换手机后的前六天的步数不同颜色分别说明了什么？", "recent": [], "choice": "explain", "family": "test-single-explain-0", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "那张换手机后的前六天的步数图，把缺失和零放在不同位置是何意？", "recent": [], "choice": "explain", "family": "test-single-explain-1", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "换手机后的前六天的步数怎么同时有位次和原始值？这两项怎么区分？", "recent": [], "choice": "explain", "family": "test-single-explain-2", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "午饭后要在柜台值班。想在换手机后的前六天调整步数，给个能做到的第一步。", "recent": [], "choice": "plan", "family": "test-single-plan-0", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "看了换手机后的前六天的步数曲线，接下来该怎么安排更易坚持？", "recent": [], "choice": "plan", "family": "test-single-plan-1", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "换手机后的前六天的步数习惯太难保持，帮我想个更轻便的做法。", "recent": [], "choice": "plan", "family": "test-single-plan-2", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "我之前承诺步数做到6800步，换手机后的前六天兑现了几成？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-0", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "以前存的那条步数要求，算上换手机后的前六天这次完成得如何？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-1", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "请用换手机后的前六天的步数给已登记的6800步门槛做个合格率。", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-2", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "换手机后的前六天的步数照旧放着，今天没想问什么。", "recent": [], "choice": "unknown", "family": "test-single-unknown-0", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "我在和同事提到换手机后的前六天的步数，这个不用你接手。", "recent": [], "choice": "unknown", "family": "test-single-unknown-1", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "请把步数的每日目标更新成6800步。", "recent": [], "choice": "unknown", "family": "test-single-unknown-2", "scenario": "test-0", "source": "synthetic scenario composition"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我导入了换手机后的前六天和换手机前的六天的步数。", "要我把两个时段的位次汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-0", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["换手机后的前六天的步数报告出来了，有一列位次。", "需要我讲讲位次和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-0", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我在想怎么让步数更有规律。午饭后要在柜台值班。", "要我按你的情况给一套换手机后的前六天可做的安排吗？"]], "choice": "plan", "family": "test-dialog-0", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我已经保存了每日步数6800步的目标。", "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-0", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "这一项我这会儿用不着", "recent": [["我导入了换手机后的前六天和换手机前的六天的步数。", "要我把两个时段的位次汇总并比较吗？"]], "choice": "unknown", "family": "test-dialog-0", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我导入了换手机后的前六天和换手机前的六天的步数。", "要我把两个时段的位次汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-1", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["换手机后的前六天的步数报告出来了，有一列位次。", "需要我讲讲位次和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-1", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我在想怎么让步数更有规律。午饭后要在柜台值班。", "要我按你的情况给一套换手机后的前六天可做的安排吗？"]], "choice": "plan", "family": "test-dialog-1", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我已经保存了每日步数6800步的目标。", "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-1", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "等我明确了再开这个任务", "recent": [["换手机后的前六天的步数报告出来了，有一列位次。", "需要我讲讲位次和报告里的缺测口径吗？"]], "choice": "unknown", "family": "test-dialog-1", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我导入了换手机后的前六天和换手机前的六天的步数。", "要我把两个时段的位次汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-2", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["换手机后的前六天的步数报告出来了，有一列位次。", "需要我讲讲位次和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-2", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我在想怎么让步数更有规律。午饭后要在柜台值班。", "要我按你的情况给一套换手机后的前六天可做的安排吗？"]], "choice": "plan", "family": "test-dialog-2", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我已经保存了每日步数6800步的目标。", "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-2", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "先把你那条建议收回", "recent": [["我在想怎么让步数更有规律。午饭后要在柜台值班。", "要我按你的情况给一套换手机后的前六天可做的安排吗？"]], "choice": "unknown", "family": "test-dialog-2", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我导入了换手机后的前六天和换手机前的六天的步数。", "要我把两个时段的位次汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-3", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["换手机后的前六天的步数报告出来了，有一列位次。", "需要我讲讲位次和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-3", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我在想怎么让步数更有规律。午饭后要在柜台值班。", "要我按你的情况给一套换手机后的前六天可做的安排吗？"]], "choice": "plan", "family": "test-dialog-3", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我已经保存了每日步数6800步的目标。", "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-3", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "我刚完成了，直接过吧", "recent": [["我已经保存了每日步数6800步的目标。", "要用换手机后的前六天新上传的数据检查这个目标的完成情况吗？"]], "choice": "unknown", "family": "test-dialog-3", "scenario": "test-0", "source": "synthetic matched dialogue"}
+{"text": "步数在这次驻场期间这段按记录日摊下来是多少？", "recent": [], "choice": "analyze", "family": "test-single-analyze-0", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "想知道这次驻场期间的步数有没有比上一轮驻场高。", "recent": [], "choice": "analyze", "family": "test-single-analyze-1", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "这次驻场期间的步数哪一条最低，麻烦帮我找出来。", "recent": [], "choice": "analyze", "family": "test-single-analyze-2", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "这次驻场期间的步数不同颜色分别说明了什么？", "recent": [], "choice": "explain", "family": "test-single-explain-0", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "那张这次驻场期间的步数图，把缺失和零放在不同位置是何意？", "recent": [], "choice": "explain", "family": "test-single-explain-1", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "这次驻场期间的步数怎么同时有日平均和原始值？这两项怎么区分？", "recent": [], "choice": "explain", "family": "test-single-explain-2", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "这周只能在家里走动。想在这次驻场期间调整步数，给个能做到的第一步。", "recent": [], "choice": "plan", "family": "test-single-plan-0", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "看了这次驻场期间的步数曲线，接下来该怎么安排更易坚持？", "recent": [], "choice": "plan", "family": "test-single-plan-1", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "这次驻场期间的步数习惯太难保持，帮我想个更轻便的做法。", "recent": [], "choice": "plan", "family": "test-single-plan-2", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "我之前承诺步数做到10200步，这次驻场期间兑现了几成？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-0", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "以前存的那条步数要求，算上这次驻场期间这次完成得如何？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-1", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "请用这次驻场期间的步数给已登记的10200步门槛做个合格率。", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-2", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "这次驻场期间的步数照旧放着，今天没想问什么。", "recent": [], "choice": "unknown", "family": "test-single-unknown-0", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "我在和同事提到这次驻场期间的步数，这个不用你接手。", "recent": [], "choice": "unknown", "family": "test-single-unknown-1", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "请把步数的每日目标更新成10200步。", "recent": [], "choice": "unknown", "family": "test-single-unknown-2", "scenario": "test-1", "source": "synthetic scenario composition"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我导入了这次驻场期间和上一轮驻场的步数。", "要我把两个时段的日平均汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-0", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["这次驻场期间的步数报告出来了，有一列日平均。", "需要我讲讲日平均和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-0", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我在想怎么让步数更有规律。这周只能在家里走动。", "要我按你的情况给一套这次驻场期间可做的安排吗？"]], "choice": "plan", "family": "test-dialog-0", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我已经保存了每日步数10200步的目标。", "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-0", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "这一项我这会儿用不着", "recent": [["这次驻场期间的步数报告出来了，有一列日平均。", "需要我讲讲日平均和报告里的缺测口径吗？"]], "choice": "unknown", "family": "test-dialog-0", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我导入了这次驻场期间和上一轮驻场的步数。", "要我把两个时段的日平均汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-1", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["这次驻场期间的步数报告出来了，有一列日平均。", "需要我讲讲日平均和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-1", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我在想怎么让步数更有规律。这周只能在家里走动。", "要我按你的情况给一套这次驻场期间可做的安排吗？"]], "choice": "plan", "family": "test-dialog-1", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我已经保存了每日步数10200步的目标。", "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-1", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "等我明确了再开这个任务", "recent": [["我在想怎么让步数更有规律。这周只能在家里走动。", "要我按你的情况给一套这次驻场期间可做的安排吗？"]], "choice": "unknown", "family": "test-dialog-1", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我导入了这次驻场期间和上一轮驻场的步数。", "要我把两个时段的日平均汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-2", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["这次驻场期间的步数报告出来了，有一列日平均。", "需要我讲讲日平均和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-2", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我在想怎么让步数更有规律。这周只能在家里走动。", "要我按你的情况给一套这次驻场期间可做的安排吗？"]], "choice": "plan", "family": "test-dialog-2", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我已经保存了每日步数10200步的目标。", "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-2", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "先把你那条建议收回", "recent": [["我已经保存了每日步数10200步的目标。", "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"]], "choice": "unknown", "family": "test-dialog-2", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我导入了这次驻场期间和上一轮驻场的步数。", "要我把两个时段的日平均汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-3", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["这次驻场期间的步数报告出来了，有一列日平均。", "需要我讲讲日平均和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-3", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我在想怎么让步数更有规律。这周只能在家里走动。", "要我按你的情况给一套这次驻场期间可做的安排吗？"]], "choice": "plan", "family": "test-dialog-3", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我已经保存了每日步数10200步的目标。", "要用这次驻场期间新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-3", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "我刚完成了，直接过吧", "recent": [["我导入了这次驻场期间和上一轮驻场的步数。", "要我把两个时段的日平均汇总并比较吗？"]], "choice": "unknown", "family": "test-dialog-3", "scenario": "test-1", "source": "synthetic matched dialogue"}
+{"text": "睡眠时长在家人来住的五晚这段按记录日摊下来是多少？", "recent": [], "choice": "analyze", "family": "test-single-analyze-0", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "想知道家人来住的五晚的睡眠时长有没有比来之前五晚高。", "recent": [], "choice": "analyze", "family": "test-single-analyze-1", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "家人来住的五晚的睡眠时长哪一条最低，麻烦帮我找出来。", "recent": [], "choice": "analyze", "family": "test-single-analyze-2", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "家人来住的五晚的睡眠时长不同颜色分别说明了什么？", "recent": [], "choice": "explain", "family": "test-single-explain-0", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "那张家人来住的五晚的睡眠时长图，把缺失和零放在不同位置是何意？", "recent": [], "choice": "explain", "family": "test-single-explain-1", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "家人来住的五晚的睡眠时长怎么同时有分布区间和原始值？这两项怎么区分？", "recent": [], "choice": "explain", "family": "test-single-explain-2", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "需要把准备工作缩短到十分钟。想在家人来住的五晚调整睡眠时长，给个能做到的第一步。", "recent": [], "choice": "plan", "family": "test-single-plan-0", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "看了家人来住的五晚的睡眠时长曲线，接下来该怎么安排更易坚持？", "recent": [], "choice": "plan", "family": "test-single-plan-1", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "家人来住的五晚的睡眠时长习惯太难保持，帮我想个更轻便的做法。", "recent": [], "choice": "plan", "family": "test-single-plan-2", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "我之前承诺睡眠时长做到6.8小时，家人来住的五晚兑现了几成？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-0", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "以前存的那条睡眠时长要求，算上家人来住的五晚这次完成得如何？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-1", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "请用家人来住的五晚的睡眠时长给已登记的6.8小时门槛做个合格率。", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-2", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "家人来住的五晚的睡眠时长照旧放着，今天没想问什么。", "recent": [], "choice": "unknown", "family": "test-single-unknown-0", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "我在和同事提到家人来住的五晚的睡眠时长，这个不用你接手。", "recent": [], "choice": "unknown", "family": "test-single-unknown-1", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "请把睡眠时长的每日目标更新成6.8小时。", "recent": [], "choice": "unknown", "family": "test-single-unknown-2", "scenario": "test-2", "source": "synthetic scenario composition"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我导入了家人来住的五晚和来之前五晚的睡眠时长。", "要我把两个时段的分布区间汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-0", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["家人来住的五晚的睡眠时长报告出来了，有一列分布区间。", "需要我讲讲分布区间和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-0", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。", "要我按你的情况给一套家人来住的五晚可做的安排吗？"]], "choice": "plan", "family": "test-dialog-0", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我已经保存了每日睡眠时长6.8小时的目标。", "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-0", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "这一项我这会儿用不着", "recent": [["我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。", "要我按你的情况给一套家人来住的五晚可做的安排吗？"]], "choice": "unknown", "family": "test-dialog-0", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我导入了家人来住的五晚和来之前五晚的睡眠时长。", "要我把两个时段的分布区间汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-1", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["家人来住的五晚的睡眠时长报告出来了，有一列分布区间。", "需要我讲讲分布区间和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-1", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。", "要我按你的情况给一套家人来住的五晚可做的安排吗？"]], "choice": "plan", "family": "test-dialog-1", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我已经保存了每日睡眠时长6.8小时的目标。", "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-1", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "等我明确了再开这个任务", "recent": [["我已经保存了每日睡眠时长6.8小时的目标。", "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"]], "choice": "unknown", "family": "test-dialog-1", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我导入了家人来住的五晚和来之前五晚的睡眠时长。", "要我把两个时段的分布区间汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-2", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["家人来住的五晚的睡眠时长报告出来了，有一列分布区间。", "需要我讲讲分布区间和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-2", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。", "要我按你的情况给一套家人来住的五晚可做的安排吗？"]], "choice": "plan", "family": "test-dialog-2", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我已经保存了每日睡眠时长6.8小时的目标。", "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-2", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "先把你那条建议收回", "recent": [["我导入了家人来住的五晚和来之前五晚的睡眠时长。", "要我把两个时段的分布区间汇总并比较吗？"]], "choice": "unknown", "family": "test-dialog-2", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我导入了家人来住的五晚和来之前五晚的睡眠时长。", "要我把两个时段的分布区间汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-3", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["家人来住的五晚的睡眠时长报告出来了，有一列分布区间。", "需要我讲讲分布区间和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-3", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我在想怎么让睡眠时长更有规律。需要把准备工作缩短到十分钟。", "要我按你的情况给一套家人来住的五晚可做的安排吗？"]], "choice": "plan", "family": "test-dialog-3", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我已经保存了每日睡眠时长6.8小时的目标。", "要用家人来住的五晚新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-3", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "我刚完成了，直接过吧", "recent": [["家人来住的五晚的睡眠时长报告出来了，有一列分布区间。", "需要我讲讲分布区间和报告里的缺测口径吗？"]], "choice": "unknown", "family": "test-dialog-3", "scenario": "test-2", "source": "synthetic matched dialogue"}
+{"text": "睡眠时长在调休那一周这段按记录日摊下来是多少？", "recent": [], "choice": "analyze", "family": "test-single-analyze-0", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "想知道调休那一周的睡眠时长有没有比再前面那周高。", "recent": [], "choice": "analyze", "family": "test-single-analyze-1", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "调休那一周的睡眠时长哪一条最低，麻烦帮我找出来。", "recent": [], "choice": "analyze", "family": "test-single-analyze-2", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "调休那一周的睡眠时长不同颜色分别说明了什么？", "recent": [], "choice": "explain", "family": "test-single-explain-0", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "那张调休那一周的睡眠时长图，把缺失和零放在不同位置是何意？", "recent": [], "choice": "explain", "family": "test-single-explain-1", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "调休那一周的睡眠时长怎么同时有有效天数和原始值？这两项怎么区分？", "recent": [], "choice": "explain", "family": "test-single-explain-2", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "周末想把作息过渡平稳一点。想在调休那一周调整睡眠时长，给个能做到的第一步。", "recent": [], "choice": "plan", "family": "test-single-plan-0", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "看了调休那一周的睡眠时长曲线，接下来该怎么安排更易坚持？", "recent": [], "choice": "plan", "family": "test-single-plan-1", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "调休那一周的睡眠时长习惯太难保持，帮我想个更轻便的做法。", "recent": [], "choice": "plan", "family": "test-single-plan-2", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "我之前承诺睡眠时长做到8.1小时，调休那一周兑现了几成？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-0", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "以前存的那条睡眠时长要求，算上调休那一周这次完成得如何？", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-1", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "请用调休那一周的睡眠时长给已登记的8.1小时门槛做个合格率。", "recent": [], "choice": "review_goal", "family": "test-single-review_goal-2", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "调休那一周的睡眠时长照旧放着，今天没想问什么。", "recent": [], "choice": "unknown", "family": "test-single-unknown-0", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "我在和同事提到调休那一周的睡眠时长，这个不用你接手。", "recent": [], "choice": "unknown", "family": "test-single-unknown-1", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "请把睡眠时长的每日目标更新成8.1小时。", "recent": [], "choice": "unknown", "family": "test-single-unknown-2", "scenario": "test-3", "source": "synthetic scenario composition"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我导入了调休那一周和再前面那周的睡眠时长。", "要我把两个时段的有效天数汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-0", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["调休那一周的睡眠时长报告出来了，有一列有效天数。", "需要我讲讲有效天数和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-0", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。", "要我按你的情况给一套调休那一周可做的安排吗？"]], "choice": "plan", "family": "test-dialog-0", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "刚刚问到的那件，可以做了", "recent": [["我已经保存了每日睡眠时长8.1小时的目标。", "要用调休那一周新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-0", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "这一项我这会儿用不着", "recent": [["我已经保存了每日睡眠时长8.1小时的目标。", "要用调休那一周新上传的数据检查这个目标的完成情况吗？"]], "choice": "unknown", "family": "test-dialog-0", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我导入了调休那一周和再前面那周的睡眠时长。", "要我把两个时段的有效天数汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-1", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["调休那一周的睡眠时长报告出来了，有一列有效天数。", "需要我讲讲有效天数和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-1", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。", "要我按你的情况给一套调休那一周可做的安排吗？"]], "choice": "plan", "family": "test-dialog-1", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "没有别的了，照那个办", "recent": [["我已经保存了每日睡眠时长8.1小时的目标。", "要用调休那一周新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-1", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "等我明确了再开这个任务", "recent": [["我导入了调休那一周和再前面那周的睡眠时长。", "要我把两个时段的有效天数汇总并比较吗？"]], "choice": "unknown", "family": "test-dialog-1", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我导入了调休那一周和再前面那周的睡眠时长。", "要我把两个时段的有效天数汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-2", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["调休那一周的睡眠时长报告出来了，有一列有效天数。", "需要我讲讲有效天数和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-2", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。", "要我按你的情况给一套调休那一周可做的安排吗？"]], "choice": "plan", "family": "test-dialog-2", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "你说的这项我现在就需要", "recent": [["我已经保存了每日睡眠时长8.1小时的目标。", "要用调休那一周新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-2", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "先把你那条建议收回", "recent": [["调休那一周的睡眠时长报告出来了，有一列有效天数。", "需要我讲讲有效天数和报告里的缺测口径吗？"]], "choice": "unknown", "family": "test-dialog-2", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我导入了调休那一周和再前面那周的睡眠时长。", "要我把两个时段的有效天数汇总并比较吗？"]], "choice": "analyze", "family": "test-dialog-3", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["调休那一周的睡眠时长报告出来了，有一列有效天数。", "需要我讲讲有效天数和报告里的缺测口径吗？"]], "choice": "explain", "family": "test-dialog-3", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。", "要我按你的情况给一套调休那一周可做的安排吗？"]], "choice": "plan", "family": "test-dialog-3", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "对，按前面那条就可以", "recent": [["我已经保存了每日睡眠时长8.1小时的目标。", "要用调休那一周新上传的数据检查这个目标的完成情况吗？"]], "choice": "review_goal", "family": "test-dialog-3", "scenario": "test-3", "source": "synthetic matched dialogue"}
+{"text": "我刚完成了，直接过吧", "recent": [["我在想怎么让睡眠时长更有规律。周末想把作息过渡平稳一点。", "要我按你的情况给一套调休那一周可做的安排吗？"]], "choice": "unknown", "family": "test-dialog-3", "scenario": "test-3", "source": "synthetic matched dialogue"}
